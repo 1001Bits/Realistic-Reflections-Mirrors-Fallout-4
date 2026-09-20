@@ -265,11 +265,12 @@ static LONG WINAPI CrashHandler(EXCEPTION_POINTERS* ExceptionInfo)
 		FILE* f = nullptr;
 		fopen_s(&f, path, s_firstWrite.exchange(false) ? "w" : "a");
 		if (f) {
-			fprintf(f, "CRASH: code=0x%08lX addr=%p RIP=0x%llX\n",
+			fprintf(f, "EXCEPTION (first chance; recovery not yet known): code=0x%08lX addr=%p RIP=0x%llX\n",
 				code, addr, (unsigned long long)rip);
 			if (code == EXCEPTION_ACCESS_VIOLATION && ExceptionInfo->ExceptionRecord->NumberParameters >= 2) {
 				fprintf(f, "  Access violation: %s address 0x%llX\n",
-					ExceptionInfo->ExceptionRecord->ExceptionInformation[0] == 0 ? "reading" : "writing",
+					ExceptionInfo->ExceptionRecord->ExceptionInformation[0] == 0 ? "reading" :
+						(ExceptionInfo->ExceptionRecord->ExceptionInformation[0] == 8 ? "executing" : "writing"),
 					(unsigned long long)ExceptionInfo->ExceptionRecord->ExceptionInformation[1]);
 			}
 			
@@ -308,7 +309,7 @@ static LONG WINAPI CrashHandler(EXCEPTION_POINTERS* ExceptionInfo)
 			fclose(f);
 		}
 
-		logger::critical("[CRASH] code=0x{:08X} addr={} RIP=0x{:X}", code, addr, rip);
+		logger::warn("[EXCEPTION] code=0x{:08X} addr={} RIP=0x{:X}; first chance, recovery not yet known; first two events per address logged", code, addr, rip);
 	}
 	return EXCEPTION_CONTINUE_SEARCH;
 }

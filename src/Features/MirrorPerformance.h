@@ -7,6 +7,8 @@ struct ID3D11DeviceContext;
 
 namespace MirrorPerformance
 {
+	enum class AlphaPassOutcome : unsigned { Completed, Unavailable, RecoveredFault };
+	void AlphaPassResult(AlphaPassOutcome outcome) noexcept;
 	enum class Stage : unsigned { FlatNative, FlatMaterial, VRStereo, FlatComposite, VRComposite, FlatService, VRService, FlatShadowCopy, FlatLightingPrepare, FlatPrivateSun, FlatSunCollect, FlatSunDraw, FlatSunArm, FlatSunSubmit, FlatSunCull, FlatSunCache, FlatSunAccumulate, FlatSunRaster, FlatSunRetire, FlatResolve, Count };
 	
 	class Sample

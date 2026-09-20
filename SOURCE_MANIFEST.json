@@ -2569,12 +2569,12 @@
       "sha256": "d6789bf08c110ca442dcceaa27386c85b3de32ab0d58313bb032479bf41511a9"
     },
     "src/Features/MirrorPerformance.cpp": {
-      "bytes": 36259,
-      "sha256": "37be8954b8f621c891844b34ba13f40b0762fc4db70bc4f0bebf98b375e64594"
+      "bytes": 36823,
+      "sha256": "b76d8033e8a8c8ebb853da7a2c6a9f988d5916aab368a78c7575c18fc3291886"
     },
     "src/Features/MirrorPerformance.h": {
-      "bytes": 4159,
-      "sha256": "3baf20ce758ac468ed135dd1b243cec1e83eae40f0b7f56c98db6d516df9ca16"
+      "bytes": 4303,
+      "sha256": "4c13a91bb779cc2eb13020d35b2720a5b3f7231a8fd229433dc4d2fa13d2d3a7"
     },
     "src/Features/MirrorPerformanceOverlay.cpp": {
       "bytes": 8390,
@@ -2641,8 +2641,8 @@
       "sha256": "834d54ca63a7f847c56e249c6715cbd8b8a5ec60a18c71e775bfd6e6ccc811c5"
     },
     "src/Features/MirrorSceneRenderer.cpp": {
-      "bytes": 1496901,
-      "sha256": "0a796a85721a8ecfae62042bac5d2ffd280f8152255d0c8a8bede93c9e09ad35"
+      "bytes": 1499316,
+      "sha256": "f11779f05dfbc1371c8b6382dfe56796debb2c9b527152154b510a2b7029e1f9"
     },
     "src/Features/MirrorSceneRenderer.h": {
       "bytes": 9012,
@@ -2793,8 +2793,8 @@
       "sha256": "27ebd26305882d5d8e5c30a923950b01ed2b450d4a43fca50f1d1acc594546c6"
     },
     "src/Features/ReflectionRuntimePort240.inl": {
-      "bytes": 377890,
-      "sha256": "a93b3012ef1043978bc753e3ca58e13d2ed3d3bcc4a97e4c65e7c150936a8f45"
+      "bytes": 378788,
+      "sha256": "90c7a920310b3abe3a869bc9c4dbf032e791db4d145d5b5618f5b24fed6e246c"
     },
     "src/Features/ReflectionRuntimePortVR.inl": {
       "bytes": 3120,
@@ -2849,8 +2849,8 @@
       "sha256": "c0d7dbc53961b15d63708bb6a36c8b37774416f54d707dc41ff3175681ad336e"
     },
     "src/Hooks.cpp": {
-      "bytes": 53134,
-      "sha256": "fa300a957f5ff8c29eb928a0a16199f8843f34b992cbd1f8bd87f12d534e4619"
+      "bytes": 53338,
+      "sha256": "715f52e847a9de2f0df282a345018183db08bdbef94c5a1591ae0dd131cdb6c5"
     },
     "src/Hooks.h": {
       "bytes": 870,

@@ -391,8 +391,26 @@ namespace
 
 	constexpr std::uintptr_t kRVA_BSShaderAccumulator_SortAlphaPasses = 0x282F1A0;
 	constexpr std::uintptr_t kRVA_BSShaderAccumulator_RenderAlphaGeometry = 0x282F2E0;
+	// Fallout's alpha stage for one accumulator, in the engine's own order. Kept behind SEH like every other
+	// native call the private pass makes: a malformed accumulated alpha list must cost this frame's effects,
+	// not the process. Counted so the log can distinguish "no alpha passes were collected" from "the alpha
+	// stage never ran" - the two look identical on screen.
+	constexpr std::array<std::uint8_t, 24> kSortAlphaPassesPrologue{
+		0x48, 0x8B, 0xD1, 0x48, 0x81, 0xC1, 0xC8, 0x00, 0x00, 0x00, 0x44, 0x0F,
+		0xB6, 0x42, 0x51, 0x48, 0x8B, 0x52, 0x10, 0xE9, 0x18, 0x22, 0x05, 0x00
+	};
+	constexpr std::array<std::uint8_t, 32> kRenderAlphaGeometryPrologue{
+		0x48, 0x89, 0x5C, 0x24, 0x08, 0x48, 0x89, 0x6C, 0x24, 0x10, 0x48, 0x89,
+		0x74, 0x24, 0x18, 0x57, 0x48, 0x83, 0xEC, 0x50, 0x0F, 0x29, 0x74, 0x24,
+		0x40, 0x48, 0x8B, 0xF9, 0x0F, 0x29, 0x7C, 0x24
+	};
+	struct PrivateAlphaEntries
+	{
+		using Stage = void (*)(void*);
+		Stage sort{}, render{};
+		bool checked{};
+	} g_privateAlphaEntries;
 
-	std::atomic<std::uint64_t> g_privateAlphaRenders{ 0 }, g_privateAlphaFaults{ 0 };
 
 	struct PlayerCellIdentity { std::uint32_t formID; const char* editorID; bool interior; bool valid; };
 	PlayerCellIdentity ReadPlayerCellIdentity() noexcept
@@ -458,29 +476,58 @@ namespace
 		g_privateForwardSunScale = nullptr;
 	}
 
+	bool PreparePrivateAlphaEntries() noexcept
+	{
+		if (g_privateAlphaEntries.checked)
+			return g_privateAlphaEntries.sort && g_privateAlphaEntries.render;
+		g_privateAlphaEntries.checked = true;
+		if (REL::Module::IsVR() || !ReflectionRuntime::Supported())
+			return false;
+		// Address rejects unmapped RVAs before adding the module base. Validate both
+		// entries before either call, and retain compatible hooks at their original entry.
+		const auto sort = ReflectionRuntime::Address(kRVA_BSShaderAccumulator_SortAlphaPasses);
+		const auto render = ReflectionRuntime::Address(kRVA_BSShaderAccumulator_RenderAlphaGeometry);
+		if (!sort || !render ||
+			MirrorHookCompatibility::InspectEntry(sort,
+				ReflectionRuntime::Prologue(kRVA_BSShaderAccumulator_SortAlphaPasses, kSortAlphaPassesPrologue), {}) ==
+				MirrorHookCompatibility::Entry::Rejected ||
+			MirrorHookCompatibility::InspectEntry(render,
+				ReflectionRuntime::Prologue(kRVA_BSShaderAccumulator_RenderAlphaGeometry, kRenderAlphaGeometryPrologue), {}) ==
+				MirrorHookCompatibility::Entry::Rejected) {
+			logger::warn("[Mirrors Alpha] native entries unavailable or unverified: sort=0x{:X} render=0x{:X}; sorted-alpha pass skipped",
+				sort, render);
+			return false;
+		}
+		g_privateAlphaEntries.sort = reinterpret_cast<PrivateAlphaEntries::Stage>(sort);
+		g_privateAlphaEntries.render = reinterpret_cast<PrivateAlphaEntries::Stage>(render);
+		logger::info("[Mirrors Alpha] native entries verified: sort=0x{:X} render=0x{:X}", sort, render);
+		return true;
+	}
+
 	void RenderPrivateAlphaGeometry(void* accumulator) noexcept
 	{
 		if (!accumulator)
 			return;
-		using AccumulatorStage = void (*)(void*);
+		if (!PreparePrivateAlphaEntries()) {
+			MirrorPerformance::AlphaPassResult(MirrorPerformance::AlphaPassOutcome::Unavailable);
+			return;
+		}
+		bool completed = false;
 		__try {
-			const auto sort = reinterpret_cast<AccumulatorStage>(
-				REL::Offset(ReflectionRuntime::Rva(kRVA_BSShaderAccumulator_SortAlphaPasses)).address());
-			const auto render = reinterpret_cast<AccumulatorStage>(
-				REL::Offset(ReflectionRuntime::Rva(kRVA_BSShaderAccumulator_RenderAlphaGeometry)).address());
 			__try {
 				SuppressPrivateForwardSunlight();
-				sort(accumulator);
-				render(accumulator);
+				g_privateAlphaEntries.sort(accumulator);
+				g_privateAlphaEntries.render(accumulator);
+				completed = true;
 			} __finally {
 				RestorePrivateForwardSunlight();
 			}
-			g_privateAlphaRenders.fetch_add(1, std::memory_order_relaxed);
 		} __except (EXCEPTION_EXECUTE_HANDLER) {
-			g_privateAlphaFaults.fetch_add(1, std::memory_order_relaxed);
+			completed = false;
 		}
+		MirrorPerformance::AlphaPassResult(completed ? MirrorPerformance::AlphaPassOutcome::Completed :
+			MirrorPerformance::AlphaPassOutcome::RecoveredFault);
 	}
-	
 	void RenderPrivateForwardBatch(void (*renderBatches)(void*, std::uint32_t, bool, int), void* accumulator,
 		std::uint32_t batch) noexcept
 	{

@@ -34,6 +34,7 @@ namespace
 		double cullSum{}, cullMax{}, drawSum{}, drawMax{};
 	};
 	std::array<CaptureTotals, 3> captures{};
+	std::array<std::uint64_t, 3> alphaPasses{};
 	struct CollectionTotals
 	{
 		std::uint64_t count{}, visited{}, boundsTested{}, rejected{}, partitioned{}, retained{}, rangeRejected{}, distantRoots{}, tinyRejected{};
@@ -331,7 +332,7 @@ namespace MirrorPerformance
 			workerTotals = {};
 			phase.store(next, std::memory_order_release);
 		}
-		totals = {}; publications = {}; captures = {}; collections = {};
+		totals = {}; publications = {}; captures = {}; collections = {}; alphaPasses = {};
 		captureEvidence = {};
 		shadowRenders = {}; shadowReuses = {};
 		gpu.DiscardResults();
@@ -481,6 +482,11 @@ namespace MirrorPerformance
 	{
 		captureEvidence.Allocation(width,height,ms,success,pooled,retainedBytes);
 		AddBenchmark([&](BenchmarkCapture& b) { b.evidence.Allocation(width,height,ms,success,pooled,retainedBytes); });
+	}
+	void AlphaPassResult(AlphaPassOutcome outcome) noexcept
+	{
+		const auto index = static_cast<unsigned>(outcome);
+		if (index < alphaPasses.size()) ++alphaPasses[index];
 	}
 	void CaptureResult(unsigned slot, bool returned, unsigned faces, bool clipped, bool playerUnavailable, double cullMs, double drawMs) noexcept
 	{
@@ -713,6 +719,11 @@ namespace MirrorPerformance
 				value.cullSum / value.attempts, value.cullMax, value.drawSum / value.attempts, value.drawMax, seconds, enabled, current >> 1u);
 		}
 		captures = {};
+		if (alphaPasses[0] || alphaPasses[1] || alphaPasses[2]) {
+			logger::info("[Mirrors PERF] alpha pass: completed={} unavailable={} recoveredFaults={} window={:.2f}s enabled={} phase={} settled={}",
+				alphaPasses[0], alphaPasses[1], alphaPasses[2], seconds, enabled, current >> 1u, settled);
+		}
+		alphaPasses = {};
 		for (unsigned i = 0; i < collections.size(); ++i) {
 			const auto& value = collections[i];
 			if (!value.count) continue;
