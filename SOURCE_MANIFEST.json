@@ -1,0 +1,3056 @@
+{
+  "files": {
+    ".gitignore": {
+      "bytes": 20,
+      "sha256": "c7cd0fc55d4b88bc4ed87b1cdc33670d9046174ab762188a0f2ce10290bb56e0"
+    },
+    "cmake/AddCXXFiles.cmake": {
+      "bytes": 2256,
+      "sha256": "6ee248589ea43f16027d88a0e37122adf71658b9880830ddb00825cdbd9ec853"
+    },
+    "cmake/FeatureVersions.h.in": {
+      "bytes": 205,
+      "sha256": "5d47ee2082d519724849f583333ebfe850e4ba9fe576fbd1be583acdedffabd2"
+    },
+    "cmake/MirrorInstallPreflight.cmake": {
+      "bytes": 1112,
+      "sha256": "a5147aa333cc8f56d6b88fa6c639fd5ddbf62afb542d516cfbe7025edf5a4a62"
+    },
+    "cmake/MirrorsOfFalloutSources.cmake": {
+      "bytes": 7576,
+      "sha256": "62574cbcf52ceaf7f9bbfcd010ae88707b49b171f8110c0ba0b47f49f53e1425"
+    },
+    "cmake/Plugin.h.in": {
+      "bytes": 387,
+      "sha256": "d563d3141c59f484eba4bfd256cc60549cafa8ec9050fc8889b29db816fc1f0f"
+    },
+    "cmake/ports/directxtex/portfile.cmake": {
+      "bytes": 6301,
+      "sha256": "7871989200c0fb3ace8224d8e5abb768897c750a150cb3985e7d732aaebc2cbc"
+    },
+    "cmake/ports/directxtex/usage": {
+      "bytes": 159,
+      "sha256": "c25492dd4142e69e1c1fe83423ff09ad3dade276dac11e0f53789d4f6ef727ac"
+    },
+    "cmake/ports/directxtex/vcpkg.json": {
+      "bytes": 1897,
+      "sha256": "ace7d85fab18ed4b560bebc958342d015e97f9f5203b195860a47d36ef3d39ec"
+    },
+    "cmake/ports/directxtex/xboxusage": {
+      "bytes": 277,
+      "sha256": "2e1506d4f187c28980bc8556aedf958dbb7defaf3952f1fbe8e7633594ae800f"
+    },
+    "cmake/version.rc.in": {
+      "bytes": 835,
+      "sha256": "2d0374d6c9bc09f2b3e291ada32b60304b28944a092a3b08838eb1c12f20cfd4"
+    },
+    "cmake/XSEPlugin.cmake": {
+      "bytes": 3696,
+      "sha256": "e30a8d8505bffad61408df7d313a2e0d57ba0d131a75a14319a54e3203b4cd72"
+    },
+    "CMakeLists.txt": {
+      "bytes": 6007,
+      "sha256": "9f102c008193cf3458e4e3e8222482ab21c4fc5cb67b36ea4be0cd00fc0ceb39"
+    },
+    "CMakePresets.json": {
+      "bytes": 1187,
+      "sha256": "3caf5fa6d1c17b2b1535653b3618a20be3a2a0d73fc01be060b42798afbd8c5d"
+    },
+    "COPYING": {
+      "bytes": 34887,
+      "sha256": "5546ad8e1dd114ed3772a1b530d530593ef3eea748f91837120767944e22259b"
+    },
+    "DEPENDENCIES.json": {
+      "bytes": 18401,
+      "sha256": "5ae517bcdc3124ad44d46c28d1b66bd8e2059e58ab9e1159a1117c9e55e815a1"
+    },
+    "EXCEPTIONS": {
+      "bytes": 2081,
+      "sha256": "f836c5f1d2021ee0daa8c43c923a1e94cebeb25f53f8a94384c6e19bb40ba1da"
+    },
+    "extern/CommonLibF4/.clang-format": {
+      "bytes": 3096,
+      "sha256": "6c32c8c7eb816bfe2001898eea4902f0ff13774551286f8d7cf0b4185a406b20"
+    },
+    "extern/CommonLibF4/CommonLibF4/.clang-tidy": {
+      "bytes": 1051,
+      "sha256": "92e9f6c75ce352b98668c6ed936181b345998a615f6b54e768069fd4430fe8a2"
+    },
+    "extern/CommonLibF4/CommonLibF4/.gitignore": {
+      "bytes": 79,
+      "sha256": "e4d84cc4d736605ead71a4a23f6cdc8f08541d324288a7cd608a2c25d12cca50"
+    },
+    "extern/CommonLibF4/CommonLibF4/cmake/config.cmake.in": {
+      "bytes": 166,
+      "sha256": "01e51a4b62d831c99a806b1b0817396ad4063630ff005d4e1794933316eded05"
+    },
+    "extern/CommonLibF4/CommonLibF4/cmake/sourcelist.cmake": {
+      "bytes": 17353,
+      "sha256": "10e990c3aa0755130c7b55a103136d955654ea61a85b07ea844cdefac955c999"
+    },
+    "extern/CommonLibF4/CommonLibF4/CMakeLists.txt": {
+      "bytes": 7167,
+      "sha256": "3a3f24841e7fd75c569c2e1cf8850de554a03c3faa4ebd5a71f47c6c20d7c55c"
+    },
+    "extern/CommonLibF4/CommonLibF4/CommonLibF4.natvis": {
+      "bytes": 6992,
+      "sha256": "7e25e974e8b87cc65b5c020c787a6c0ca883e86ecca54e06f68612cdf91d9a8d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/F4SE/API.h": {
+      "bytes": 1562,
+      "sha256": "b07fbface678c8f8dcc0bd3437876501955922ca67c0408ef1c15ef0ef3d624f"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/F4SE/F4SE.h": {
+      "bytes": 210,
+      "sha256": "80414bfd7763590f23589a19053d2f17148a48e76bba38d4a85aef60c8db30d2"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/F4SE/Impl/PCH.h": {
+      "bytes": 27106,
+      "sha256": "06b099807371f73fdc616b3b2e7da6350e17f7f2b992425b698c0bc5ffb8a238"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/F4SE/Impl/WinSTL.h": {
+      "bytes": 877,
+      "sha256": "884022bd51afd8edf9e5ce26433c4ea8e666652a25e7dda219b9a4e855ca2d5d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/F4SE/InputMap.h": {
+      "bytes": 1582,
+      "sha256": "bccb7b47216a61b56a87d84415d264b3a10024635977d9bc3eca95bb3b7f4216"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/F4SE/Interfaces.h": {
+      "bytes": 17027,
+      "sha256": "47515816a5f7aad7dff7c6e99dbc38fabc732a55cf29cb2b647a6543bd7c209b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/F4SE/Logger.h": {
+      "bytes": 2168,
+      "sha256": "b8c56b8b57cbd4683138949f43f3295e1173d9809ee6d884ce9988456dfe4491"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/F4SE/Trampoline.h": {
+      "bytes": 5384,
+      "sha256": "968b499df8ef4e35d7ac85f05fe4cf999f812a560c9370255c3b6a402234bf16"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/F4SE/Version.h": {
+      "bytes": 3578,
+      "sha256": "9ae3a774b1b88b997fd1b717d9f2af8862fc440a33f10dfbc43f04aaea21fb58"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/ActiveEffect.h": {
+      "bytes": 3042,
+      "sha256": "e0a732a4f501c18fb2341cdcea18251ebdd87a24d704b8a2287350aacc7a0995"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Actor.h": {
+      "bytes": 87427,
+      "sha256": "69d105fd0892eb684e3db0deca1bb38a6dfeebeacd24cb612b1c3c61b52aaae3"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/ActorValueInfo.h": {
+      "bytes": 13137,
+      "sha256": "3bd01f32523d22c19c0f888921921c76b0087390265c9a593a11a106b557cca3"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/AITimeStamp.h": {
+      "bytes": 160,
+      "sha256": "c664b70b87980008f5e50abd763536062aae2ba177ab6441ea623690c51ff3e5"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Archive2.h": {
+      "bytes": 11000,
+      "sha256": "adbe6745d5234cc6d40e6cb7b16868416675dc14b8a9e0d8c2a8f59becb7f1ee"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Atomic.h": {
+      "bytes": 1265,
+      "sha256": "0ddd44cea21c39c929523e9fa6fc787dfbce05cf773bd93660769f85800035df"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSBaseAliases.h": {
+      "bytes": 2871,
+      "sha256": "31211e15a4e288d3d6354f012b280ca15cb2bc57112d8fae5db95251e823d4af"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSBodyPartDefs.h": {
+      "bytes": 383,
+      "sha256": "43532f99afeb04cd3b6808e9d201cb1899d5ba4396cb65b93987cac7d1c22151"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSCharacterMorph.h": {
+      "bytes": 2616,
+      "sha256": "a0dc6cc3bbcd513088719bbd91146c3327557b2b9bf3049ee4277b565476be5e"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSCharacterTint.h": {
+      "bytes": 5792,
+      "sha256": "d0354654f5460300886f635c329c2be6cab4e89766f02558c943c0fe6661ca66"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSCreatedObjectManager.h": {
+      "bytes": 2795,
+      "sha256": "0958db66c9b3d908c217d6a52253fbf2b96e6b1dc3a01e50b156d6594afc0454"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSDefaultObjectManager.h": {
+      "bytes": 13444,
+      "sha256": "eb3db4d5a7601a047644758d2461b19a2d2c4dd06901f7638e5441c370b19a31"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSDynamicPersistenceManager.h": {
+      "bytes": 1392,
+      "sha256": "f46a6dcf283ad1a14a79acea7dfd1244297c1e531180367aedd63b8937dee0be"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSEntryPoint.h": {
+      "bytes": 6068,
+      "sha256": "1d96829cde4f55a699d6858584695ca641c55ff1fd6ff4a2d1ca110b0ee26410"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSHeadPart.h": {
+      "bytes": 1804,
+      "sha256": "c6cf32e6e62b652156196a28e99ebdde873da97687ac520a2324487b17626319"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSInventoryInterface.h": {
+      "bytes": 2046,
+      "sha256": "30296591b9267f2cac42680a6b1352c9c7a07e7489012179af4600b316a00224"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSInventoryItem.h": {
+      "bytes": 7144,
+      "sha256": "915defa8562cb43711dc8c4776988b4089b937ec0c519403a5cf64cf60355fe0"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSLoadGameBuffer.h": {
+      "bytes": 896,
+      "sha256": "9f57ba06308e7fd5a9bec3c026d6f5cbd9021a8f05bda52981071c6869494650"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSMod.h": {
+      "bytes": 7868,
+      "sha256": "298efd4819ec7b8cefe00fe1d9d07ea395c74e47bf9f09277bea1bf2eca3b2dd"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSPrimitive.h": {
+      "bytes": 1261,
+      "sha256": "4835069a27868db99732171b6a5a546fda1bee325fee34d46dbdf568092a998e"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSSaveGameBuffer.h": {
+      "bytes": 968,
+      "sha256": "0b422dc9748caf6c1de78d6e88e8724d8e9fb06f99b5daa3fe556eb287920c1d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSSaveLoad.h": {
+      "bytes": 6577,
+      "sha256": "a4948d5fcc8fa6f5277a19b852b07635c06cfd853ddc89be6cb75d1855f711b6"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSSceneAction.h": {
+      "bytes": 9058,
+      "sha256": "93ee80fd1aafb5d7b1e7d7c8eecac3cda5066da8249fb25cb29a7a0b62557d8b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSStoryEventManager.h": {
+      "bytes": 3344,
+      "sha256": "cb0bc70c49e38ffa02becec274d572547a4189617db83bef20a587c1640dc2e0"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSStoryManagerTreeForm.h": {
+      "bytes": 10946,
+      "sha256": "7eac4cb1c704df29f2431b35a69f3f5214a81ad722a1fd1d3a0682c04be4562b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSSynchronizedAnimationManager.h": {
+      "bytes": 1958,
+      "sha256": "176a8121b43958dc7822cafe6a260bc1a5588940cf2ca667c4f2b028885d4fc2"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BGSTextureSet.h": {
+      "bytes": 15002,
+      "sha256": "266c44cbc3c41b5ff8adc54162b8d4b5442afd260078ad61771d4255c3b94d69"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/bhkCharacterController.h": {
+      "bytes": 17330,
+      "sha256": "7aa71a567453d81849e263cf8ffc58e84730640cf23ec838de0c168bbbd3273a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/bhkPickData.h": {
+      "bytes": 2854,
+      "sha256": "54553bb75b2aa7d93b1cbb910aabe22e940dec6129179f8bd0459089a3da47c4"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSAnimationGraph.h": {
+      "bytes": 2241,
+      "sha256": "e060688d63056f697f69ab79ccdf517152cb441abb821ce2964d131e910c2ee5"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSAttachTechniques.h": {
+      "bytes": 1266,
+      "sha256": "44a125bca97afefccfca2053cfc881110748826dc0123fdeed6cb69df346a216"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSAudioManager.h": {
+      "bytes": 5821,
+      "sha256": "3170fc2f1a0325871a25e93f49bc765542faddc3417ff89c234a3d5eaa6f9b78"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSAudioUtil.h": {
+      "bytes": 255,
+      "sha256": "831c893e6d7e4d598d13f8c3ab1a5b36bd8217e7c0d937056766526b73eabb05"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSBound.h": {
+      "bytes": 469,
+      "sha256": "5d788faea5cf6b43728d558a74c9460d49ba1897f99caa9afbabe2e54e8522bc"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSBTreeFile.h": {
+      "bytes": 1427,
+      "sha256": "bdb25df9c0ce0a984d7b5f9e307c5861cccb88df129f1a331ac42fc60b1652b2"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSContainer.h": {
+      "bytes": 116,
+      "sha256": "2b08dbf5c2ae0b6cbb86ec907cb184daf32ef48561426a32c5d1f4efc5e63644"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSCoreTypes.h": {
+      "bytes": 209,
+      "sha256": "b3bc3fa14d376efc5f2da7d4d9b0e18551a6d784ac13fe70ea2de1e5c5ebcae9"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSExtraData.h": {
+      "bytes": 29133,
+      "sha256": "dc7bd8fa046f45b960933964b8a88af3bcc3150da14f442d5a3175ab651f73ab"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSFadeNode.h": {
+      "bytes": 3235,
+      "sha256": "7f401fb6da8bf1dcb2b46b4207542229fdaa72ca920ffdf50e53d45c017347be"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSFixedString.h": {
+      "bytes": 10054,
+      "sha256": "a228018ed1c3ee8576ebea9b3d37e9854763b72fe078775ef2ec982d1ac4d302"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSGeometry.h": {
+      "bytes": 3188,
+      "sha256": "fbe0f99c5b208e288576692625b412af94b534562715afd632168979efe55c56"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSGraphics.h": {
+      "bytes": 28648,
+      "sha256": "d82965b06a59abba0eb033fbea11ad843d72f6afcc250e42d40096af6cf40d56"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSGraphicsUtility.h": {
+      "bytes": 2731,
+      "sha256": "c4e1bf1d3e6844425e16e21bb3f83524357bc5608c5c405c9213c4dd4a1b6390"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSHavok.h": {
+      "bytes": 828,
+      "sha256": "776e7ce85bb79a137c374c126817249f461edd25f48af8964f6d588f0be7aa7c"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSInputDeviceManager.h": {
+      "bytes": 2422,
+      "sha256": "7b824326339332a73a14b9a89b0e18e07fc129cf6a6ba140d7da6bdc5f83a89d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSInputEnableManager.h": {
+      "bytes": 4814,
+      "sha256": "e7b8212862db2d0c5238d3abd59f86daa693c5cf4dca7351a0606174425973e8"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSInputEventReceiver.h": {
+      "bytes": 462,
+      "sha256": "87ffe67f102d1237bc940729bf41c3a599c3c9fc923b26d983215247240702f9"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSInputEventSingleUser.h": {
+      "bytes": 445,
+      "sha256": "59a2957ffbf7c6bd2d8d1a04db5d87c756cc7ad4b5c19a94c851ff0829474f72"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSInputEventUser.h": {
+      "bytes": 1809,
+      "sha256": "8eb7cf4d6663085857a5d258f8f3d743938e74a55200c44d8af5b6e28898d773"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSLock.h": {
+      "bytes": 4587,
+      "sha256": "7ec21377fa2da83b9ad18c93416ba555830fa4c4062030b29a3c8a28d899e722"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSMemStorage.h": {
+      "bytes": 1046,
+      "sha256": "e3d4cdf4f20540eb31ca83183c1c26aa0cddf892ff87d41566006d4c82014373"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSModelDB.h": {
+      "bytes": 3200,
+      "sha256": "08dc4e2686799d319a7fbfa07b8e83e6f05661cd30d370f7e3e950235da610e0"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSMTAManager.h": {
+      "bytes": 7705,
+      "sha256": "f4fbcee9b0e8de2b288e4851a327d1e46ee4e86927afeec6238d0378a8289ab0"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSPointerHandle.h": {
+      "bytes": 5451,
+      "sha256": "ec6ec6dba6faec7a4096c6b1951e94931ba3ebaa183b13c924dc2cd8a262ffb3"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSPreCulledObjects.h": {
+      "bytes": 373,
+      "sha256": "4569bd7345ea4ebba3c83f7dbe67d85e47b6c352b7edbd60adeab9e2c9daff20"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSRandom.h": {
+      "bytes": 316,
+      "sha256": "1e6e84a3b452bff81ebaf391795bc294b124ac2cebe4d692184e002edd47b5b0"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSResource/AsyncStream.h": {
+      "bytes": 1948,
+      "sha256": "3505ed5854d41e451046137de5d22a5f5f8a9bec827b24eec5db49a9f8b4a79d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSResource/BSResourceEnums.h": {
+      "bytes": 997,
+      "sha256": "b5f024f52bfbe7fc362ade88eb6d4b170b1a91fbaa417af22d40924a309c17ca"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSResource/Entry.h": {
+      "bytes": 8683,
+      "sha256": "ca72d3db156c7ce384babb2e58d2239ffea9035058d9f7dbf6615585dc8409ad"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSResource/GlobalLocations.h": {
+      "bytes": 1053,
+      "sha256": "2ec7f3a688b346429028fcb795318044283121d79006376b64e9c542bc0903b6"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSResource/GlobalPaths.h": {
+      "bytes": 817,
+      "sha256": "65743dcd35c8063a4be47edd478ea360a617ebfe31d7f417745c07f590ddd178"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSResource/Location.h": {
+      "bytes": 2456,
+      "sha256": "3e4a1bae57d7437d18ab5a784e7ab7be9c8533c6ca818a8a566c401689dc9c05"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSResource/LooseFileStreamBase.h": {
+      "bytes": 812,
+      "sha256": "72392402c911b125bf6e56d07d969b47a692010c002ebfc659e412c896fd4bd0"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSResource/Stream.h": {
+      "bytes": 8052,
+      "sha256": "46f6766956132923602287acc3a4254122f46f65b70c2a9c6118ee4a2064641a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSResource/StreamBase.h": {
+      "bytes": 1400,
+      "sha256": "c57bb0b1f30106953e0e4eab9585b2e88576c6c81fb3f7709de51bf724e14979"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSResource.h": {
+      "bytes": 893,
+      "sha256": "5ee40bb678098159e0d8c25266f373a749d2876abcf538c002e5caf3ac032d70"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSResourceNiBinaryStream.h": {
+      "bytes": 2299,
+      "sha256": "8c5d3c5cc5ffcb910c39af40cf62ef563ca0570db28fc556a678d354606644e9"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScaleformManager.h": {
+      "bytes": 4335,
+      "sha256": "3fd96de7c4718a2de2192b84736305ac5f89ef497be89b9810d4b19d81b7f68d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Array.h": {
+      "bytes": 2964,
+      "sha256": "175d8c768af00a883722cf29913029d184f4baf2c511ca0ceaa0204a29d8fc74"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/ArrayWrapper.h": {
+      "bytes": 1501,
+      "sha256": "603f7b164a70a727ce3b276712d474e19fe8d23d9732181bf3ef5c1664122942"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/CompiledScriptLoader.h": {
+      "bytes": 1860,
+      "sha256": "a5b6756a7ade83493c715cd3502dc632c8a092b08cab8af267c49eb1ab056ff3"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/ErrorLogger.h": {
+      "bytes": 1704,
+      "sha256": "c0d2a50392ffc70170aabc6a3d39b8c7e4b21d5e3071f2a1983cbe1143636cac"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/ICachedErrorMessage.h": {
+      "bytes": 856,
+      "sha256": "7cb196d29f5829c64471773102a635276a3580863e7973a0819013988fbcbf07"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/IClientVM.h": {
+      "bytes": 811,
+      "sha256": "56e0bc7004b3cdec98c61274a6301c81abc2d96e20a0b0f3e66521666ed776d0"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/IComplexType.h": {
+      "bytes": 1090,
+      "sha256": "b0a4f717abcdeb7236a8a616c20f14fb45a4312e3965be1eff03b27c5fadb845"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/IFunction.h": {
+      "bytes": 4944,
+      "sha256": "2e788b4258da54ac0584b829f545a8fb53c1cb26eb9221bf512b0bb6bfe2ee8b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/IHandleReaderWriter.h": {
+      "bytes": 916,
+      "sha256": "6058e0ec6ca8d085b1e26a9bb11b1edd1e00f919eec1e000a626361518d828cf"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/ILoader.h": {
+      "bytes": 1184,
+      "sha256": "9b327cbac22a64f186664be3dc9ce6c294c773640adfa8469442e8b8305ab37b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/IMemoryPagePolicy.h": {
+      "bytes": 1623,
+      "sha256": "05c6ac2f5d39cb3450760c6b5346ac03692c1f56995b3c05899fe507d2e1e06c"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Internal/AttachedScript.h": {
+      "bytes": 337,
+      "sha256": "d91f0654c972dfee229cc578eeed8f1239fe19796ef3715fafb2c727df69fb64"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Internal/CodeTasklet.h": {
+      "bytes": 3126,
+      "sha256": "6ab3a3e14f54d3f2e76c2baa61079820ffe6227f4af82adaa4d42e52b3385ff3"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Internal/EventRelay.h": {
+      "bytes": 680,
+      "sha256": "32e75bddefdd1b04c56472c7300861941db2ec4249d103d2b19c726b39e16a99"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Internal/FunctionMessage.h": {
+      "bytes": 622,
+      "sha256": "be4dd78dfa2bb8c270146f307e8579d119b6a6290a50aae9ef62a45e3259488f"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Internal/IFuncCallQuery.h": {
+      "bytes": 966,
+      "sha256": "c0e55a865924b4b769f0e69984b20a0743f9d5e223749579512dafa67744cf6c"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Internal/RawFuncCallQuery.h": {
+      "bytes": 1452,
+      "sha256": "3ba7e2a7a9d3604cfc87ec4d08e048e7ead6b1661393058e9034cd355491eb4d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Internal/ReadableStringTable.h": {
+      "bytes": 1490,
+      "sha256": "a47f6cc59f37340a33ff87324ecd964c61b44aaae8d25019e86bf4e2b9b50358"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Internal/ReadableTypeTable.h": {
+      "bytes": 714,
+      "sha256": "af93081273cdc66df66c76e7380913007a224adb94ff8253d5628d0e5666eb83"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Internal/ScriptFunction.h": {
+      "bytes": 6073,
+      "sha256": "4531acb7f84bce747ea05d4a9e69e5f6ecf89dddc131f7e8c3cc2503c8b290c5"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Internal/SuspendedStack.h": {
+      "bytes": 424,
+      "sha256": "0c771954736da04411d27d455eb7c461637409f15233d01ce7be7318e8b0a825"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Internal/VDescTable.h": {
+      "bytes": 1188,
+      "sha256": "bdd6903011840d5668cbbab7c6857df6bf6946d130a12d2dd195fe8cc8355512"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Internal/VirtualMachine.h": {
+      "bytes": 43047,
+      "sha256": "0fef16b17717725dd5eef58179faf0f91c2adc1ffe3b5fcafd841de4388919a8"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Internal/WritableStringTable.h": {
+      "bytes": 666,
+      "sha256": "544e9719a6c5f28d470739e09187b3bf3ae01b41f479cc71c6ac654b2edffa72"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Internal/WritableTypeTable.h": {
+      "bytes": 577,
+      "sha256": "dfa63d0594609a3a944c440f998e829aa58ee21c19a493ad14d1db8d62c28601"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/IObjectHandlePolicy.h": {
+      "bytes": 2449,
+      "sha256": "1d2da66e09923c1033416c6540e2fe10c9db6d4a62a21c7319286f9bf9c46cb0"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/IObjectProcessor.h": {
+      "bytes": 736,
+      "sha256": "bab9f63d3c8117b3a8d705b0eea92e851cafe02fd583c72207229974a27be0f1"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/IProfilePolicy.h": {
+      "bytes": 1815,
+      "sha256": "0959a35bdb64be24a506d5c35ede1e2da8aa0c532419c94428f39547a9d13119"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/ISavePatcherInterface.h": {
+      "bytes": 994,
+      "sha256": "c3afa00c61afcc8f2ec42265ea06de4dbb283202226f666a546128b5473e4c7d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/IStackCallbackFunctor.h": {
+      "bytes": 1258,
+      "sha256": "d4a4309574e2874e367869f315911bd5c52eac1f675f19dcc8dacd0e531ac217"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/IStackCallbackSaveInterface.h": {
+      "bytes": 1195,
+      "sha256": "60b5886f66e05ad0c2f95d032c1e9d344e2041122f622fe9bdf135d06a0106f7"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/IVirtualMachine.h": {
+      "bytes": 24672,
+      "sha256": "6f85a19debfae2bd05be0487099abad747bdfe4f287b2a676ab517a52ad7900a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/IVMDebugInterface.h": {
+      "bytes": 1109,
+      "sha256": "6fdb6e40b5f8c4af9511341ef0e576fa2b147989fd50f6615c5fa0afd12fe216"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/IVMObjectBindInterface.h": {
+      "bytes": 2284,
+      "sha256": "30f06be80d9acd54c22c11bc842077469c7e74d2c324f7a4a57ec3c68fc36048"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/IVMSaveLoadInterface.h": {
+      "bytes": 6301,
+      "sha256": "b2847ff75adcd44cae916239851f886e8828944bef262cac4743755792321c7b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/LinkerProcessor.h": {
+      "bytes": 1742,
+      "sha256": "d88415466322ddcc93292d572c99c3d701ed9369065e7b17bdd3d836f13eb38c"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/LogEvent.h": {
+      "bytes": 462,
+      "sha256": "48cb7105679aa6f4c253316f352344d2bc2b8dd82e5a9bc2462324382d90e61d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/MergedBoundScript.h": {
+      "bytes": 701,
+      "sha256": "b07006791886c30e16401803b88c7bcde198d344b56b19f662943e6bfb3a7b1f"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/NF_util/NativeFunctionBase.h": {
+      "bytes": 5880,
+      "sha256": "cbee84d444b70664637e120c6e15cc3a926e9542fd6fca9a085b1676b6446469"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Object.h": {
+      "bytes": 2776,
+      "sha256": "bc0dd89f445451ffee9fc33156cff1ae60254e819d53197e86eb20a6b3a9dfab"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/ObjectBindPolicy.h": {
+      "bytes": 5769,
+      "sha256": "283615547020c3d04e2a11f9e0bd8c7028ab06bc516824be6248c8a2b78942d1"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/ObjectTypeInfo.h": {
+      "bytes": 8024,
+      "sha256": "755e3948bfd3947f0483ba0d50a327a70c0ff9799f16cb6fa71faa3449711ef1"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/PackedInstructionStream.h": {
+      "bytes": 753,
+      "sha256": "11dda7f27eef68427720afa4bb0c2fa000077e1d5c955dd494a0894de2b0fe8f"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/PropertyGroupInfo.h": {
+      "bytes": 802,
+      "sha256": "9bfdf0b362c23863717fca6c3e45a7399856e8e60d062f1c4dd04acccf65a928"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/PropertyTypeInfo.h": {
+      "bytes": 1043,
+      "sha256": "42c87bd8dc1531fef761e1a9bb26d59aadbce474eeabae7e0f2f87cd37b2777a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/SimpleAllocMemoryPagePolicy.h": {
+      "bytes": 2243,
+      "sha256": "5756040e3be7df138454124eec2e17d40f14e7f314d5fa2410fa473a52b4e921"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Stack.h": {
+      "bytes": 3308,
+      "sha256": "e93ddf69f11902dde44b8b37e0e33d8cec27cdc1c7ea3d695ac4ec522ca28047"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/StackFrame.h": {
+      "bytes": 1432,
+      "sha256": "72b4e6755283c3bc6bd02e1908a5d8d9b02fdf011e4b31c2ed7a927fae911be9"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/StatsEvent.h": {
+      "bytes": 357,
+      "sha256": "b79ac181d85b89e429398fd37b18d0d3d424284942ed3b2d7c3749f5bf528e36"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Struct.h": {
+      "bytes": 1057,
+      "sha256": "060e14ef553258c109b33dd0566f6875870272f5082755ac17eea9d9f105fe6d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/StructTypeInfo.h": {
+      "bytes": 1973,
+      "sha256": "e686ff01be9cc518f9bf6de71f501cb90597aea801ee612a979b7a9d328f30ec"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/TypeInfo.h": {
+      "bytes": 3781,
+      "sha256": "4ad34225b62c1b7b35d57c8c833d42a07eb878dc90bcaa64b87adf232206d020"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript/Variable.h": {
+      "bytes": 7607,
+      "sha256": "7d96816121804ff2faee27c0bd49d57368cdd8bca9f3347e4d283aa1f074bd06"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScript.h": {
+      "bytes": 3243,
+      "sha256": "7f8be58f912055f935950aa1bc4fbdef3888856c7c4291d705d3c5c3131e1bc7"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSScriptUtil.h": {
+      "bytes": 36212,
+      "sha256": "b6d90b4e48f8a6b4dc0e7bd47b1f794e4de88c5fe0384754132712a1f8e23a55"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSSemaphore.h": {
+      "bytes": 285,
+      "sha256": "9f30bb80e7f983fcf5b67e49ee6b5f4aef54599f1f33325e1bab8de5651b076b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSShader.h": {
+      "bytes": 4135,
+      "sha256": "c798e8fa8a3647015dd2103cb74cddce4f3ba13b1cdd9433d01c607a26d01663"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSShaderMaterial.h": {
+      "bytes": 6153,
+      "sha256": "478c761585f5683e31b457b3bfde567c7ef52211b01aec1afc1230ceb7301c76"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSShaderProperty.h": {
+      "bytes": 9053,
+      "sha256": "9d06804c22f21ed1ff4c614df7ca4661277b7580106df83f2f0d6d2d799a591a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSSoundHandle.h": {
+      "bytes": 775,
+      "sha256": "821230dbc5b5cd2dc19692bbe4ab9ad9d1d6e0b7779fb9b18ea75eec610f054f"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSSpring.h": {
+      "bytes": 398,
+      "sha256": "43b723c0e929db86c80e3415b6ff0ab2245ac6fb5eee1a8805ee715c0f59a8a7"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSStorage.h": {
+      "bytes": 1614,
+      "sha256": "9b15d170f4e555ae92b2b988bd5417c5989a919e0f62ecccb007530bd984eeb8"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSStringPool.h": {
+      "bytes": 3866,
+      "sha256": "fd50d2534a0558dbc058e5d0e89fcc6c6a9b4a66b7583e0f4277fccca578fc4f"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSStringT.h": {
+      "bytes": 4181,
+      "sha256": "dbe012d702463448644db12fe9bed8dac9548a2bf797437440d468fc6317d5a9"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSSystemFile.h": {
+      "bytes": 619,
+      "sha256": "5a8273344d443e902a354cfcceb9b0f5126dd6a33d7903a3c19afea88562d51a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSSystemFileStreamer.h": {
+      "bytes": 229,
+      "sha256": "e10a3602b6120a9286cc85a4cef99d26d2a1e8233696225967eff8022fbc8182"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSSystemUtility.h": {
+      "bytes": 1449,
+      "sha256": "7cc1b6b09f49a1fee76318882c897d2e51b96620c5e0e3997759f79d06076e90"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTArray.h": {
+      "bytes": 22566,
+      "sha256": "b1725c6d88405734c32ef6231b12a0f839408faeb3b487c8669fecdd176fa0d7"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTBTree.h": {
+      "bytes": 7080,
+      "sha256": "d9b80aba697ac2de4a8fd07ccb302ecd8d5eb77f8ea8305f47e4a3ad92d5684f"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTempEffect.h": {
+      "bytes": 19593,
+      "sha256": "0ad3d18727aae1806a91c9899ca299ac5e0f04116a1b51215ade20f0a63bde6c"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTEvent.h": {
+      "bytes": 6348,
+      "sha256": "45233b4fe8df83f75bacf1934d1bde10549446d4b518b78c3e1edac2f231e698"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTextureDB.h": {
+      "bytes": 1147,
+      "sha256": "f26d2820e01ddaf2f509e69aa7ea39c56ce4964bde2b55e828ac58bdfd96e724"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTextureSet.h": {
+      "bytes": 2007,
+      "sha256": "89e905788ac3fe6ac65d61b84e2ad53b617822405b39751587fad5149bbabe87"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTextureStreamer.h": {
+      "bytes": 1323,
+      "sha256": "3a178cd376503c307c6a80d6907e4a1d33a9b6b9a697de52017746129dbfd08d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTFreeList.h": {
+      "bytes": 668,
+      "sha256": "51777b21ae1912226ed11b11cff692deee59af0e521f6c414e56ed8e11cbdba3"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTHashMap.h": {
+      "bytes": 23661,
+      "sha256": "ba160cbcb1a9511053df5d6e559b5415fffb13b85f9157affd51c6b23f3de165"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSThread.h": {
+      "bytes": 544,
+      "sha256": "4f1e41f6c40c4e6273a0caa818486094149fd7c45edd036ebfc630fb3c94bfde"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTimer.h": {
+      "bytes": 1479,
+      "sha256": "7d429f45b5856c6073cd3033d3c9a29c5e337a56033e4c234d68bafdd6d2586f"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTInterpolator.h": {
+      "bytes": 800,
+      "sha256": "5085350bf4e1d3abd8eb736fa4aca2aa55f43acf8badfcd77162f8511bab10ad"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTList.h": {
+      "bytes": 10753,
+      "sha256": "867944931f339c60de9756363166b4c33d60cbe832d76b53093ed3a4fa9ebfd0"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTMessageQueue.h": {
+      "bytes": 3793,
+      "sha256": "66e967a0fd701d0ab61ed97ac8584796e24c78337da478660e36a5b47f17387b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTObjectArena.h": {
+      "bytes": 7982,
+      "sha256": "10bade46c8102c70c90bfe7d079cbbe192f14c6775fd14d814b0fb24c9d26ca7"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTOptional.h": {
+      "bytes": 13914,
+      "sha256": "5fd49811c321022212f9d8f1739de4885df11ad45a70950d6f97f458db019d41"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTPoint.h": {
+      "bytes": 2680,
+      "sha256": "74dccdd50aa81047abde7d4552bc80ab08ab057a57acd90f60ec9ea7f00c3c4d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTPointerAndFlags.h": {
+      "bytes": 1995,
+      "sha256": "066b0075313d067de1783e692f21530b710c5cda46b79aea28a6bc497168e406"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTSingleton.h": {
+      "bytes": 1007,
+      "sha256": "9263b25c1d7b65ef47d1b76360dd90bf86a7aeca06f49ee01d0c6714bca3bad2"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTSmallIndexScatterTable.h": {
+      "bytes": 991,
+      "sha256": "6a9abb7e3aa017a67d6799dba452b1beefc0a6a1b9f6359e5454aab235e552cd"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTSmartPointer.h": {
+      "bytes": 6000,
+      "sha256": "a732f7ec06879949fa3bfa6b91f3b66ec4e6a62969fc21660c37880546b760a1"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSTTuple.h": {
+      "bytes": 6890,
+      "sha256": "16f22b707d2c54622f73c741d1cf5b0118474ec8525f952605ce2e943b8b588d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSUtilities.h": {
+      "bytes": 870,
+      "sha256": "626b9f609e9c134ec1cd320697a8c04b099e26db80ce527c42aad33febecf399"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/BSVisit.h": {
+      "bytes": 450,
+      "sha256": "1b8e61a01d7af56d4ffcc500a4dee292705b0005eccd2b67570d3ffcc923e8bd"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Calendar.h": {
+      "bytes": 1126,
+      "sha256": "dc005afddaba72254ceb02defb78911ae1bd72dedaafe070573b375ad20ac287"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/CELLJobs.h": {
+      "bytes": 93,
+      "sha256": "360b48dd273bc241220742a427b3944deab8da10e560616d2255e433feedf133"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/CombatFormulas.h": {
+      "bytes": 1594,
+      "sha256": "9e62c6a40009d7d004b2968ba6e9ca94645d30acb6d17c57433149e3ccdeae86"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Console.h": {
+      "bytes": 1108,
+      "sha256": "3aa66978de878ac90f4b1a5c7e43dc65f3834f4bdfaef7750fd2fd74a06e66a9"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/ControlMap.h": {
+      "bytes": 5124,
+      "sha256": "1c4c3592c8353de6f0d89ab742a4d772ae0960740ce1221ab9284984c2c24511"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/CRC.h": {
+      "bytes": 5240,
+      "sha256": "0ebc61cadb030d41f74a92b104e723f62ef0c6024dca6c8c79f4b40002608e46"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Events.h": {
+      "bytes": 26318,
+      "sha256": "6262b3dfa0025cebe63d5d18d1209f5b6eb45e3d724d2655f6d7f0f865fc3be7"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/FavoritesManager.h": {
+      "bytes": 2267,
+      "sha256": "5ba6e91b4f4cf30fb6c6fd68075cbfaaaf38ab30d6d054aff2dd69bb9166aefb"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/FormComponents.h": {
+      "bytes": 76794,
+      "sha256": "822c83b60a0422c6cfab14d938520e49904b23533dd95fa946a650da1286508c"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/FormFactory.h": {
+      "bytes": 3647,
+      "sha256": "da0a718557645053f9d811bbee37c1a9c24bf9e1a7b704edfd4a67a7e5d9ede7"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/FormUtil.h": {
+      "bytes": 6622,
+      "sha256": "c4d1e79cbf803a0ea6ff604107c8503cfd1dcf4c07e795e236d9a378f585f48f"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/FunctionArgs.h": {
+      "bytes": 3152,
+      "sha256": "092f13ae9d3116106d13d22f2618d8d811692116b82a7344ecf5bf56d29e6065"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/GamePlayFormulas.h": {
+      "bytes": 1381,
+      "sha256": "024a40fb97381fb87d86a23e1caa44dfbf8e7740651aacc0c46a8360316859cc"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/GameScript.h": {
+      "bytes": 39198,
+      "sha256": "3c70eca03670ce51836644fe18265cd0d0412aa8440e90987964d4119115ff7a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/HUDModes.h": {
+      "bytes": 500,
+      "sha256": "4d7ce8b020bec2781a48743c89af5928f5167f38633276c1ff3dd91e1fb51be5"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/ImageSpaceData.h": {
+      "bytes": 2181,
+      "sha256": "4fcaf53d7a53d020ec637f662638dcbd5bd625b139288628082d29be83ce0091"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/ImageSpaceEffect.h": {
+      "bytes": 10546,
+      "sha256": "9d53ea00e3746165c9491de8dddb4babaceb134cc6ae6d14493ed329e63aad71"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/ImageSpaceManager.h": {
+      "bytes": 12431,
+      "sha256": "f70762e3c165f5a4b80c26e0436c1a66d3f9110e7e3c885a3fbf4baf4eb5ce02"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/ImageSpaceModifier.h": {
+      "bytes": 5155,
+      "sha256": "3946b300a663d932f94422dd855077df5ab9baf698a8fbf2b012337ed53aee83"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/IMenu.h": {
+      "bytes": 111481,
+      "sha256": "ed2d9b951bdfe58d56d5bff1c11d7bdce18a7a41afe05f7316d8a51162837430"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/IMovementInterface.h": {
+      "bytes": 7835,
+      "sha256": "69e11a63cf59957acd8a92c7637f46ed8f526452ea18d12370ac2fbbda3f8c8c"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/InputDevice.h": {
+      "bytes": 264,
+      "sha256": "9509a2eb25c46df397272369356506c17980b8f78f263b959ddd8ffc72e11b19"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/InputEvent.h": {
+      "bytes": 11583,
+      "sha256": "1fd1921348f577991e666d54c3ad5df060faf87918836a08a0e06c30f1ac183a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Interface3D.h": {
+      "bytes": 15507,
+      "sha256": "39ac4c4072e93c5bc9e2ccfb619fac88cce8afc3c2d9dae8063d111a414c79b1"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/InventoryUserUIUtils.h": {
+      "bytes": 2826,
+      "sha256": "fcaf1aa6d502b902a03cd5831a94914c417a6340465cc5668866ab60633728fd"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/ItemCrafted.h": {
+      "bytes": 1031,
+      "sha256": "7f81f13d1b3cbcf9be97e59142293be28f380a70373013857eaf1338cd146178"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/MagicItems.h": {
+      "bytes": 11750,
+      "sha256": "52e871623d69a0b4a7dac27c255da93e7c8f97ddcd07fd4064bf69c1a46797ad"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Main.h": {
+      "bytes": 3739,
+      "sha256": "f7d6dd1042f40afc809b8a4aa9dd029c557092b054c54dde1ea442b900360c9d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/MemoryManager.h": {
+      "bytes": 19856,
+      "sha256": "25ff815503912b20ab438478b53eeed51903d8e505b38daae755b99979a02224"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/MenuControls.h": {
+      "bytes": 1466,
+      "sha256": "e19b5a79d9a7d1269866b10d67a3f96b02c27284c1fbf79c25ef9faccb2c8893"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/MenuCursor.h": {
+      "bytes": 2416,
+      "sha256": "54e5488af6267fc65ff8635e5edd289723df8f2b1b93d9022a6f491fe433092d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/MenuTopicManager.h": {
+      "bytes": 3180,
+      "sha256": "3d10f4fbe2ee24c0771ff6ebe9d6d7bf76347e66a3d0f3cc50fe51a410983f4e"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/MessageMenuManager.h": {
+      "bytes": 3400,
+      "sha256": "61c05152583f187bd26d32181b96447bfc4b5efedb4aa7bbcf49bd26486f8364"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Misc.h": {
+      "bytes": 298,
+      "sha256": "4015660a9279b23759903587897232d59c8096c69fab1c6417aa7725cfd52ee5"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Movement.h": {
+      "bytes": 474,
+      "sha256": "c29d203ea3815c84662f0cba1c5cb0559b69cff2a122c42ae73dcd103b460cfa"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/NavMesh.h": {
+      "bytes": 6399,
+      "sha256": "ccfd5216d3decf26ecb677139dd0dbc5d0befe5fbb73292741fea4752d131d88"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/NavMeshInfoMap.h": {
+      "bytes": 2947,
+      "sha256": "e3fcc1758507797a42476570c6afbef1b5409f338fbf154cdac34a444a0f59e6"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/PipboyDataGroup.h": {
+      "bytes": 985,
+      "sha256": "8e2d9a8415723c0ac897900c8b40d186ccbf95608fe562679170061af140e1cb"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/PipboyInventoryUtils.h": {
+      "bytes": 1099,
+      "sha256": "403bb9c290dc8f2f6374c5d0a2f96c3552d5d7b59d03adfcf0c09b5b8b3e185d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/PipboyManager.h": {
+      "bytes": 9540,
+      "sha256": "59b4d6e8b3ae9d61c0c7d5bc0ad0934c7fa2d64b1a95ef379aa3e12679ef8831"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/PipboyValue.h": {
+      "bytes": 2472,
+      "sha256": "6c1e88d4a95125350a1a825238d2fd9a7ff5634cdccd85ac12b65c51aeb98ef2"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/PlayerCharacter.h": {
+      "bytes": 35488,
+      "sha256": "82d395b71f3faac93c409142f94aea2183df62c63e91f274ed8460cd0b07855b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/PlayerControls.h": {
+      "bytes": 7945,
+      "sha256": "1ee70b8a1667c8a0d8b85fa0508ae5cb73e7f9c5f9f8832c8ef928473bea1818"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/PowerArmor.h": {
+      "bytes": 5981,
+      "sha256": "32d56df429fabce725e7576f86110c5b8553cb19df10532c466971cb13c89dd4"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/PowerUtils.h": {
+      "bytes": 1755,
+      "sha256": "8b88989083904d12acb7ddbb9e859509de4a4d26e0124a5436f01d8f5912caaa"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/ProcessLists.h": {
+      "bytes": 7022,
+      "sha256": "11027cddef079d539c057b9497e6d2f24d519d2501073ec84739d244a34f81eb"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Projectiles.h": {
+      "bytes": 18227,
+      "sha256": "835188a6ebe02991b8cf218d80e23b1f772d47bc93f1e3e8d8446a3be5dde4a2"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/ReferenceEffectController.h": {
+      "bytes": 8406,
+      "sha256": "c0c54168943bb747447788c867946c52d6139f9f915b3c02cc31984531314c0e"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Script.h": {
+      "bytes": 12279,
+      "sha256": "467354f15c3b936d517b7aa8f498a279ca1fc0cdde9ffafae0f9e7e0a03ef666"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/SCRIPT_OUTPUT.h": {
+      "bytes": 54134,
+      "sha256": "ca8d56556536efe68e3b858559d3fb7ea8ddc57279d9ababe6347a19a9ce5894"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/SDirectory2.h": {
+      "bytes": 276,
+      "sha256": "04b89f71664400e114bb08cf84119ec0677b101d73e26fe7352529458260a890"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/SendHUDMessage.h": {
+      "bytes": 1046,
+      "sha256": "81202a11be595ac51e6f9cea72e3056f47b4798095d269594a397b5579641121"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/SendPapyrusEvent.h": {
+      "bytes": 6919,
+      "sha256": "ccf8470d82bc62607f0982f764bded1b656c08d584e8c309ed9bc29f5246837e"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Settings.h": {
+      "bytes": 10461,
+      "sha256": "4c2a8656cb36c49d09bdfbe23ed13d5d010a7b875fe81b6a412d54c9176e24fd"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Sky.h": {
+      "bytes": 8132,
+      "sha256": "d39cdd9d7929ced1149bf676f45be435a7b4aa08a77cee72e9b6d934b540e502"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/SplineUtils.h": {
+      "bytes": 636,
+      "sha256": "95a0a16db06a7c0369752e059d992e471fafc3cfd4f097b607e3582bcaa48274"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/SWFToCodeFunctionHandler.h": {
+      "bytes": 1278,
+      "sha256": "ecc6d3c4e9f9cf33df67c60d720e041fd5765441972ce079ef1bfe4c92dcc4b1"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TaskQueueInterface.h": {
+      "bytes": 2115,
+      "sha256": "15f115431a3e22f564e26ac21a08dcd371af2990482a711256e4f784b456b21a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TESBoundAnimObjects.h": {
+      "bytes": 22285,
+      "sha256": "a0ac6bbfa805055f77a15d8c02c109f14273b03147376ab59b17111f81e023b3"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TESBoundObjects.h": {
+      "bytes": 49178,
+      "sha256": "6b0fb8ea7d21cde4be5ff0f0efc94739c8d5f5355a8a14224c7968ab68887f5b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TESCamera.h": {
+      "bytes": 13596,
+      "sha256": "354eb40da8f543e5adfabdd58ca7d2e9de0314b03953ab859bfae1d3e6b7a8a8"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TESCellAttachDetachEvent.h": {
+      "bytes": 667,
+      "sha256": "ff27bc73beb898741c9a82886144d6ec90745d24656d8ea6c41d796aabd84c50"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TESCombatStyle.h": {
+      "bytes": 3648,
+      "sha256": "d0c0cf1caf8e3c7da6595ca7eabc750a01b0f39f64e2ce07fbd9114a12990c19"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TESCondition.h": {
+      "bytes": 3600,
+      "sha256": "9b9fa582d45b591a2b6ab4464a86a21d8fc37098051b3ad9d4f5a79517cdaec9"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TESDataHandler.h": {
+      "bytes": 14106,
+      "sha256": "28fb81dbda977570137dabca26e59b7545659ccc87682390727c7ef01b501c72"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TESFaction.h": {
+      "bytes": 3663,
+      "sha256": "d4b6a13441ba25a33ddcd444f0f1ec73e4ec19282c85622a572362cb579ac392"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TESFile.h": {
+      "bytes": 9454,
+      "sha256": "9023fa0d6248a211023a03f6d1bff776587e3080aef3ac48838ca8218d0b7d01"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TESForms.h": {
+      "bytes": 132562,
+      "sha256": "fd0da2fa1e006423ec29f61b9a105d99b50e8ac9b216a515d258abb9a7918cc3"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TESObjectREFRs.h": {
+      "bytes": 69129,
+      "sha256": "a0c319248dfe29853e3bee4c1bfec11a65c68e9deddc1913f6449511f897e909"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TESPackages.h": {
+      "bytes": 8393,
+      "sha256": "10468231e8d5fd4cafc6e8d790f8ca83a270d20a103ee633abe13b86346acc3b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TESRace.h": {
+      "bytes": 10117,
+      "sha256": "4dab35d4f15008920c9d2f927ddec9d17761beaad5ae5b448f087a474b0c136c"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TESWaterForm.h": {
+      "bytes": 4719,
+      "sha256": "d3fe64fb7db982e663f8c770ff3546b58a8f320b1303a60236d30b7919570e37"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/TESWorldSpace.h": {
+      "bytes": 7744,
+      "sha256": "56af02647a56b12c7bbbc6bdab1ca2759f3bc0608bb62f68ad9400588ea390eb"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/UI.h": {
+      "bytes": 5753,
+      "sha256": "3eb3c7d414cc12434f45dcae3804d9f4b7ed0ff812d570024d0fe1e6af37fabf"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/UIMessage.h": {
+      "bytes": 3731,
+      "sha256": "a089284cd7bda48c4b85e6d4b5bdd03cf410f1982dddd3990bb76714c3faa761"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/UIMessageQueue.h": {
+      "bytes": 971,
+      "sha256": "0c138b5373eca4ede7f4979b96e034f6b5a7f56badb13457393e2888cfa24020"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/UIShaderFXInfo.h": {
+      "bytes": 892,
+      "sha256": "3e44c060047f712b4fbd3facb66afb0ed3da3a14f903f9b97988ccd3689abc1b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/UserEvents.h": {
+      "bytes": 1266,
+      "sha256": "dc758a4696f3dd48059123e3f250795f3a55871ea6de3475335627f2c692c80a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Utilities.h": {
+      "bytes": 3602,
+      "sha256": "633b97dd74452887212e6cb2124eb3e1220e4aea1db39fd7a4804b3dba045ff7"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/VATS.h": {
+      "bytes": 4023,
+      "sha256": "696ace162d18224daea192caaa9e14be33eb0f2278d469af0419dd0a7d493f05"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Bethesda/Workshop.h": {
+      "bytes": 12879,
+      "sha256": "944513d2311bcc93d9e76d11ec55156f9de02ac176d82e5e6ca362d157dae3fc"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Fallout.h": {
+      "bytes": 14933,
+      "sha256": "c86c7f27378463ea56e8c482e98bbaebe106c2b8a9a507441d7dbf3d6f23b95c"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hkArray.h": {
+      "bytes": 1025,
+      "sha256": "f34bef21470b3572f9de18338b628e5e0c1d91e4b4ee5772b74f236e394b11e2"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hkBaseObject.h": {
+      "bytes": 382,
+      "sha256": "2a902730a2c6e3913bb55085fe452c3b3a414896831eecb78c320af53e6f7f9f"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hkBaseTypes.h": {
+      "bytes": 672,
+      "sha256": "03576f1909c97f7470863ff085636f1b27e23c477cee8e3993ac7182fd964872"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hkBlockStream.h": {
+      "bytes": 1027,
+      "sha256": "21c29cd7d748d93ae2926aaf129c4c12637dc0c0f12ec780033394ec5c9c4899"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hkHandle.h": {
+      "bytes": 217,
+      "sha256": "bc23b00b3b09275a14c713e6d64c00208bcb622a557f47c51958ba5bcae340da"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hkLifoAllocator.h": {
+      "bytes": 3127,
+      "sha256": "f6600fdc65d6bdeb27d4ed8a31a89d129f759a74dadfabaa7fc64ea9dc0722ba"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hkMemoryAllocator.h": {
+      "bytes": 2170,
+      "sha256": "98e08f7fde823ac9388904b9762d9e38b6d8f1100e7e2ba4ef9afbdb85550ba1"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hkMemoryRouter.h": {
+      "bytes": 1552,
+      "sha256": "d553bc95de4881ff7727138f3302484fc84aa864ae4dc2dc57fd9d293c304326"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hkMemorySystem.h": {
+      "bytes": 3590,
+      "sha256": "e38920a8260a5b68edcf7ce6ea2347ce6fec71add3de3c69149eb991c497494b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hknpAllHitsCollector.h": {
+      "bytes": 1189,
+      "sha256": "524bd3fe71f6b6ec1ac37e7e5f3613cb226e9b01264e5a506e6400ad2cb31cdb"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hknpBodyId.h": {
+      "bytes": 269,
+      "sha256": "7d3102d349143352b19822b6749e2db78c5a90c83dbdb39cb09ec50cdc72bced"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hknpCharacterContext.h": {
+      "bytes": 1669,
+      "sha256": "756b52e54adec4d8a8d7778b3fa5a4d1d5828d0a5dc2bfa7bbbc0a8a25e43dc5"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hknpCharacterState.h": {
+      "bytes": 1586,
+      "sha256": "f970ddb3fa33bb4ba21d0edce1351cc71eac5ac6124bd6c5829878d83f7b98a9"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hknpCharacterSurfaceInfo.h": {
+      "bytes": 657,
+      "sha256": "3e15fedfcc8c1aa0b10801a646ab5bad4d9cace8f95a0dd137720855b01da046"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hknpClosestHitCollector.h": {
+      "bytes": 1218,
+      "sha256": "89ebbdbb4a9f260ae08e16a9a54a6fc44e6520ca5144c9d9b575668724771363"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hknpClosestUniqueBodyIdHitCollector.h": {
+      "bytes": 529,
+      "sha256": "e744b9e40304101d258a704d46c74b034c4ab025eb3b64dde74363c299ed9ab9"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hknpCollisionQueryCollector.h": {
+      "bytes": 1020,
+      "sha256": "8d799718f5bf9ef379ee7007be997fee3fdeccba32cf5fad841c8e594b980a13"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hknpCollisionResult.h": {
+      "bytes": 1358,
+      "sha256": "c12f084aed7fa61883f71a959c471808ef0bcf0819e82d15bb1e96e26f493332"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hknpMaterialId.h": {
+      "bytes": 280,
+      "sha256": "158c534d84ee9849f5a53f9b429213240783e9f034d0c7fcec2146fe668ec715"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hknpShape.h": {
+      "bytes": 11949,
+      "sha256": "d87b87928c472ba4c36378c469fcaac51044b29784232ac07d924dd962c6cced"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hknpUniqueBodyIdHitCollector.h": {
+      "bytes": 523,
+      "sha256": "56b67ab5766099b38930695072110a9789eb3c995f0db721a74a12086e743ac2"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hkReferencedObject.h": {
+      "bytes": 609,
+      "sha256": "aadbd0cf77c0de74e316185bdbb10b633a02a398e7d3bb1e4b07a5639427fea6"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hkRefPtr.h": {
+      "bytes": 150,
+      "sha256": "4db3aae6236db38909e023a173826f3435f94dfc77f451a70fe5fd95dc343499"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hkSimdFloat.h": {
+      "bytes": 93,
+      "sha256": "1c35059182cb5ed6066a75b84e41b8302d7f0ff43021b7ee2f715abf2fba8646"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Havok/hkVector4.h": {
+      "bytes": 2819,
+      "sha256": "2868ac64f7c701089debf179b540531b0f2606367468a7a0c6f29102f7771087"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/msvc/functional.h": {
+      "bytes": 1240,
+      "sha256": "e72c013470ee320bf0421cf0e65f014ee9622c7f132ac2c78780adcd820c2ad7"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/msvc/memory.h": {
+      "bytes": 19152,
+      "sha256": "87f1be5c5d24226121a9640decfcbcdc3810242694c6de563fb39614fd8b1304"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/msvc/typeinfo.h": {
+      "bytes": 837,
+      "sha256": "d39e525579d7c5a2fb52124ff63d6807044a901016536bea49c9593e540e1469"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiAlphaProperty.h": {
+      "bytes": 2246,
+      "sha256": "223c28b8f54c6da66bd0d7db022bf706f5e07de1821e6453508993af4cd589ec"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiAVObject.h": {
+      "bytes": 4805,
+      "sha256": "6642eeb5e9c239b849296f2fc5b517cfa9ae122da615a7d0e6aa5707b9d433fb"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiBinaryStream.h": {
+      "bytes": 3288,
+      "sha256": "54ac81240a2874afde961408781be6d962c8feba0b009837d10b02016b5b540f"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiBound.h": {
+      "bytes": 276,
+      "sha256": "ef1fdb8e79761fd60b22a92e1bb1cdecea1e237940c7b02eed88df0c419b94bd"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiCamera.h": {
+      "bytes": 1357,
+      "sha256": "147e1d168a968259d3759f7bed10d9c3ecc87c2508888cda84ed47f2e7da5925"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiCloningProcess.h": {
+      "bytes": 624,
+      "sha256": "ce956c62c92d1d7fba0ee5ace49e387865314f2308efca7d60a3b132c599463d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiCollisionObject.h": {
+      "bytes": 956,
+      "sha256": "b3dbd336696ba1a278dc96916122f01cc645e923e46e8486ef764ede33a8c932"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiColor.h": {
+      "bytes": 347,
+      "sha256": "d1409ab5aa1822b0a4357a5ac44741c2e00beae8eb19a8ae56ea49d05c8e854e"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiController.h": {
+      "bytes": 5041,
+      "sha256": "2317290acf121dee546f1e69543205a61a68499199d9af0550beec32d7140268"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiExtraData.h": {
+      "bytes": 749,
+      "sha256": "870b65221995f13608398ad7d49f3d84f79c04836a1e659239fd98771b5633b9"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiFile.h": {
+      "bytes": 991,
+      "sha256": "95c835d02c4e6cd88db8019e1feadd079a83a6a27980acb11620c0ef6ff18568"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiFlags.h": {
+      "bytes": 329,
+      "sha256": "3ed3240dd95c5200940bf3aaf9b10433a6cf5e09b4c577ccc599d75b0b0579b5"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiFrustum.h": {
+      "bytes": 285,
+      "sha256": "5750a0c1ebc7ddda76e081faefd5c884fab0d3487b3fc5ff696eb82e75482e1c"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiMatrix3.h": {
+      "bytes": 2395,
+      "sha256": "0835763946df318c9fc74fc70ee3446b113d56c59336b6985ee45995a93275b5"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiMemStream.h": {
+      "bytes": 605,
+      "sha256": "310b9cc460df9a61cad024f68e58539dcb9a7ccde3ede0236efddc6e281bc9cb"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiNode.h": {
+      "bytes": 3943,
+      "sha256": "32dab994b8e8504d557841bcc71fe54cc21e4a66363e71df623a5773459429a5"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiObject.h": {
+      "bytes": 5925,
+      "sha256": "dd6da17e6626a39ed53e2b7d71f0fdd04b7915849d140294c657b8ce40702cc4"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiObjectNET.h": {
+      "bytes": 1191,
+      "sha256": "24052830976a0abf1d5011b84bbc51575d71f7809e8730d8b6ddcd89ac9c3d5f"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiPoint.h": {
+      "bytes": 6919,
+      "sha256": "724e57633322ea2974144ddbe1bf332f9ff02d63f106b612f8d9a61f360fb798"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiProperty.h": {
+      "bytes": 546,
+      "sha256": "d34813507bd9c43314eefc549e85abe4efb79f9c129fcef234f67bf311e23ccf"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiQuaternion.h": {
+      "bytes": 199,
+      "sha256": "f46ae0ba161207f8e2e517c927d84dfbed3cb711754d750163fab149940f7bdb"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiRect.h": {
+      "bytes": 319,
+      "sha256": "60b96889fec46d50f454c2827fc04d8eb3d465314b28f31a07286864b49f648c"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiRefObject.h": {
+      "bytes": 1200,
+      "sha256": "fddef50edd0cc1b20025d59897ee59e23e931a738fee55c0955e125af6e11a2f"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiRTTI.h": {
+      "bytes": 2715,
+      "sha256": "eb9947d4daa4e33fc6f4df5b1b32f05496757ebddeb2e1c2714e2c066a9a70ee"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiShadeProperty.h": {
+      "bytes": 506,
+      "sha256": "14ac1dd70d6a4b4feabf4bc34c0352ce0b281f62bfcbf530668a55aa39e3d7ac"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiSmartPointer.h": {
+      "bytes": 4236,
+      "sha256": "3a7ad78e77273c891093d29af27f4951715757c5e7ae9e8d6bdaecd53cf3893a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiStream.h": {
+      "bytes": 5082,
+      "sha256": "dc2d0363605a9ca2eef02a227c46fd50beb1c4be066303dff572a1b70499311d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiStringExtraData.h": {
+      "bytes": 426,
+      "sha256": "9f4bac701056dab676a4fb4df643dbff04bdf01c1051b27dc8af982b086fc399"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiTArray.h": {
+      "bytes": 5495,
+      "sha256": "3db5c518cd2f302b501315fae7126a43a66092298917d46e35fbe035786dcfb0"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiTCollection.h": {
+      "bytes": 816,
+      "sha256": "afa5709401940ef7f9cbcad7bfe127ce2de39d877872013fbb12372f50c4b905"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiTDefaultAllocator.h": {
+      "bytes": 153,
+      "sha256": "6758faf807840de2f96acc95650be9846388802e2c006362c4b417242e51b211"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiTexture.h": {
+      "bytes": 1705,
+      "sha256": "cb07b8d5b0377d662fa59155798d32a16bad5c29496cf484752451d04d2b4e0e"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiTimeController.h": {
+      "bytes": 2042,
+      "sha256": "b80cb4a4712cc4a6db24e34aa1973ee01ace2553ff2f3a58b4518cbfd7bdf7dc"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiTLargeArray.h": {
+      "bytes": 676,
+      "sha256": "4b59f869e96eee8aa8108bd029084b8b9eab42ed39b342b7b9c95343d3e75ee2"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiTList.h": {
+      "bytes": 254,
+      "sha256": "7c5f4c75d20935b392daf55787341874db6b196f2d2923aad168ac201b5b3876"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiTListBase.h": {
+      "bytes": 527,
+      "sha256": "2b17645cc8104df87da74d2a6773a78e6b18237dbb4de69bed4627b96b4e3306"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiTMap.h": {
+      "bytes": 770,
+      "sha256": "0a93b20937e272f31931c627dbacd41b2f47d68be2edc725bf132d74011766b7"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiTMapBase.h": {
+      "bytes": 1651,
+      "sha256": "d9816fb4d37552007bb6cfe914d3c26513e4baaad71c1ff62f12da0d5f295055"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiTPointerAllocator.h": {
+      "bytes": 244,
+      "sha256": "8d7af5c7d0fda8be45f9185edb2dbe5b307d885ddbadc7135d15a0f61b19070d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiTPointerListBase.h": {
+      "bytes": 207,
+      "sha256": "3b47c97fc81d897a4c035547257f8e61b3202f5b2f0c129adb1fc01221ccccf9"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiTPointerMap.h": {
+      "bytes": 751,
+      "sha256": "2c49b752f16c2912fbff869f8663028e735c1aecc2b37b895197f8ceb395f301"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiTransform.h": {
+      "bytes": 433,
+      "sha256": "a9a27a375491a290dec5ecef91f225dda0dfdf44dffc1cdba5bffd09fcd827b7"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NetImmerse/NiUpdateData.h": {
+      "bytes": 377,
+      "sha256": "32f4ab66ff64f9bad910d0a345899af7609af86c48baa27e541df7f1000da4e4"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/NiRTTI_IDs.h": {
+      "bytes": 27369,
+      "sha256": "bd9eac3f6033e83b6436e38996846dcc98867e83ae406e79e8ab580a5a999038"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/RTTI.h": {
+      "bytes": 5533,
+      "sha256": "f366a16f4538459f149cd5705b989eddac0a5a39bd5af8668409ae9919e68b05"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/RTTI_IDs.h": {
+      "bytes": 1756293,
+      "sha256": "197608234a645c1171e3f218d608d751bf0dae4e45618fba738f3bf73ba55c9b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/GFx/GFx_AS3.h": {
+      "bytes": 16277,
+      "sha256": "1be712f41eff8c31f8f9e6154a4f16f1864981f465781c00160c80c247e4fb9c"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/GFx/GFx_ASMovieRootBase.h": {
+      "bytes": 14574,
+      "sha256": "4b54c87cbf9e89e25d385b7a24bd90f99a7d1514898182fe591d05d5bfd8f21a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/GFx/GFx_ASString.h": {
+      "bytes": 1732,
+      "sha256": "6f7f6f95fa6145205550c52eb5392d64cfc2ff4c8a9dec3fd25c05225de6aa34"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/GFx/GFx_Loader.h": {
+      "bytes": 6040,
+      "sha256": "10bff77f9bd692342986536655a9e54ee029c9d96cae113de4d86a87ed643abc"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/GFx/GFx_Log.h": {
+      "bytes": 549,
+      "sha256": "954dbf96243dd2deacb336096180b36fc7f873a2104d4a7ef769604847a59d4d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/GFx/GFx_Player.h": {
+      "bytes": 46938,
+      "sha256": "ef82c4cde6a2e6e88e4ab20ae68e3f04f1ab58f85a20e341edc8843c45e1b952"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/GFx/GFx_PlayerImpl.h": {
+      "bytes": 11624,
+      "sha256": "20d9ac55a9276ac06ce35883dc2d6a53a52680e719e70804e5210be1d2f55101"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/GFx/GFx_PlayerStats.h": {
+      "bytes": 1972,
+      "sha256": "5a004da4fce3874d35940f515bb4161a40ae3df782ca70e3e9024d811e31f368"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/GFx/GFx_Resource.h": {
+      "bytes": 3125,
+      "sha256": "c21963eabc5f71a477d6c9ba2328950a9a6a65da06b2dd668f3b20097c8f9333"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/GFx/GFx_Stats.h": {
+      "bytes": 851,
+      "sha256": "9fe04faabb300105298802dccac1956e7e4511b31216a93e05ed49fcde804b46"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/GFx/GFx_Types.h": {
+      "bytes": 679,
+      "sha256": "791e6bddc4c195c6e231cff0b382f2f9f07e92995c0a2d33b058bc8fe120b387"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Kernel/SF_Allocator.h": {
+      "bytes": 1108,
+      "sha256": "6935943ee6892f777f4e7aee30f2e5439d5c55044ac81360320e36c9c67b142f"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Kernel/SF_AllocInfo.h": {
+      "bytes": 311,
+      "sha256": "d483fbded04c3d387049824e1fb0e2694a0b487b1926f1586712f4dbf6d20230"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Kernel/SF_Array.h": {
+      "bytes": 2314,
+      "sha256": "78a9e5cd522476036c8904c6e2aaa5af468084067d0c20a11bbd272c3bb3b7d1"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Kernel/SF_ArrayPaged.h": {
+      "bytes": 2105,
+      "sha256": "82b84c40cc9fc23759955e3b7ccc979b9d600c8294f24210202bdf84cafc0d23"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Kernel/SF_Atomic.h": {
+      "bytes": 517,
+      "sha256": "e9f43fd2894a6c96c3903d21bea0a50f15245eee9995c16d4db80f9fff91e59c"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Kernel/SF_List.h": {
+      "bytes": 471,
+      "sha256": "42f1644f707817df9d7d447b497360e08d3d3e547e29ea0b1142d224b9297aac"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Kernel/SF_Log.h": {
+      "bytes": 808,
+      "sha256": "ad385901bad0cd1abe778630162e9587410708543fd568573f4db03f24fe6da4"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Kernel/SF_Memory.h": {
+      "bytes": 10802,
+      "sha256": "a5ad430b4ed61b0745bf84c95a7897df71325675295e6a777de9c04e130f5464"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Kernel/SF_MemoryHeap.h": {
+      "bytes": 8984,
+      "sha256": "a3a9b63c3bcfd6f07adf00eea479aa92aab90c3d8affa97ad1b4dedfde4007bf"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Kernel/SF_RefCount.h": {
+      "bytes": 5816,
+      "sha256": "4c42406bc8c356fc7639c5a324202e100e4cdce619f807f922e9917f6294bc41"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Kernel/SF_Stats.h": {
+      "bytes": 425,
+      "sha256": "5b1012b13bd9cb720381dd6ecc7643a581ed836a831e274635c6caafcba5a0c6"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Kernel/SF_SysAlloc.h": {
+      "bytes": 4097,
+      "sha256": "1735bb3daa989efcc7b1b3597024a000840f093c638f987bf2cdf60e8678be33"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Kernel/SF_System.h": {
+      "bytes": 141,
+      "sha256": "917c4137a990f8bd947f89b471837ac0c9bc9696f3c3e0adf6d56cbec4b942cd"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Kernel/SF_Threads.h": {
+      "bytes": 2704,
+      "sha256": "cf7c4230c3870b0c179f7cfab351578caf20d52b85976e52217ba8cea0b55af4"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Kernel/SF_Types.h": {
+      "bytes": 141,
+      "sha256": "acf89b6b42ce8f81be98c9bcab710c6d2d7ef8e58b252b0c21be8233502eb6da"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Render/Render_Color.h": {
+      "bytes": 450,
+      "sha256": "916cd3ba43c2e30691efcd94648556517ba55ce200a50b44173269b7ceaf201e"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Render/Render_Constants.h": {
+      "bytes": 185,
+      "sha256": "cbab4851b2448547285ba172721617a9452aff923c11e89c01d0b3e8be959623"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Render/Render_Containers.h": {
+      "bytes": 944,
+      "sha256": "83cd2fac3b4e0cd7c2be5153d1fde418ade637b0b6acba577cd7a49c5ab031c9"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Render/Render_Context.h": {
+      "bytes": 8468,
+      "sha256": "ed9e38a7cdd104dd02842cbf37c731f8b2cdf5289483f3a784ece7c4d573e623"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Render/Render_Matrix2x4.h": {
+      "bytes": 381,
+      "sha256": "b9a3ce6d86e089f4320de8e9ba9909e4ff39ed12b4953bcd005855bf24bb4756"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Render/Render_Matrix3x4.h": {
+      "bytes": 432,
+      "sha256": "0d8bbfe2f0130de3e81b3800f3d3712e59493d293fe5087e6ae1ed329b03b4f5"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Render/Render_Matrix4x4.h": {
+      "bytes": 483,
+      "sha256": "a99029499987ce60c9db22b9cc4e6c2163fbd543127a31930569f2dba14a53bb"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Render/Render_ScreenToWorld.h": {
+      "bytes": 757,
+      "sha256": "e9a292cc0b0cd1b8f5e39ba16de4220c4257b6ad375d4c794cd10902501f8998"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Render/Render_ThreadCommandQueue.h": {
+      "bytes": 1011,
+      "sha256": "3700c96013e4127daa750448a3b04a10f795d02427a0a836ff7166d12e4ea9b4"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Render/Render_TreeNode.h": {
+      "bytes": 558,
+      "sha256": "c645cec7993e16a2195b7174fa12f0083e8f16d8d6aeedd1f6e2251db3039835"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Render/Render_TreeShape.h": {
+      "bytes": 162,
+      "sha256": "798b7ff357c5eccd2a1d3a30bbc0ba1c221c50c721b4a2e7a10f9ec91aa3f395"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Render/Render_Types2D.h": {
+      "bytes": 520,
+      "sha256": "75f2aba90b931b31ce6ebe9f84972b1fb24b9a11b4979d8cd637dd05d2aa7578"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/Scaleform/Render/Render_Viewport.h": {
+      "bytes": 1501,
+      "sha256": "0f3fcd77919ac4d693abace5b526f59c68b03b5e62d5092df258305e532ba0a6"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/RE/VTABLE_IDs.h": {
+      "bytes": 1696094,
+      "sha256": "2b91f058502bfb2960e538b19cc2df1c8a81899e22dc8e8856f88d9c13bc8f9f"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REL/Common.h": {
+      "bytes": 3787,
+      "sha256": "809293df02471f8790602dd99975eb036eb979a34d07659a22ea0fc4c5e53d9a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REL/IAT.h": {
+      "bytes": 1204,
+      "sha256": "7de3f4932efcc7fe2eb1fa28870fd7b3eec9d439f63ac4202fe874f8dc4797cc"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REL/ID.h": {
+      "bytes": 4112,
+      "sha256": "0a2d589d042b59b1ad2567c1c6b36bb0282a7ab7fc415d28e8d91defb5fe90b5"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REL/IDDB.h": {
+      "bytes": 2109,
+      "sha256": "5ff3d31db08ba4660246d4b8b2c9076bd6c0f8786a7fe200e98a4a7a1301da9a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REL/Module.h": {
+      "bytes": 3673,
+      "sha256": "b8f92a52f601501dd4f8d1f89028e35f1ce375fc0284c33b9a2e94316a7c1fe8"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REL/Offset.h": {
+      "bytes": 2052,
+      "sha256": "7cb49456ea7bf6681be422206c994de65e3962336fc32572cf3b6812b2649d3a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REL/Offset2ID.h": {
+      "bytes": 2460,
+      "sha256": "2135c1c89b738a35b466489f8f98b4d96764c7ad50c6a67d2e31b4811b2c2091"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REL/Pattern.h": {
+      "bytes": 6024,
+      "sha256": "d82d42d94bdc5dd0db8b1b3ea90af1716d985e42e07582063eabf9ee0c29d3be"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REL/REL.h": {
+      "bytes": 292,
+      "sha256": "b1aeec3ba40c03548c509393056173632145b1606094725392900835d7369b6e"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REL/Relocation.h": {
+      "bytes": 25734,
+      "sha256": "8f96f08395369791b516af3e156c5784212fc3d328674ec8622c6a55ff576d2d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REL/Segment.h": {
+      "bytes": 1028,
+      "sha256": "bcb384ce56dfe5d058fd20f975983fc9c87caa3bc287059cea09fefd6a037b90"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REL/Version.h": {
+      "bytes": 5125,
+      "sha256": "66462c77db986f2de4464e97750f2c9f57ac904b9fd23b699ad20d6b13cc66e2"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/PS4/SCEPAD.h": {
+      "bytes": 811,
+      "sha256": "5fa3a5e2c537c32f92c74113e31701fc080b0c8ffdd1eeaac404fbe64a944d7c"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/PS4.h": {
+      "bytes": 45,
+      "sha256": "207b0fa0b408059d2d8cd039dc577c61714fc92c4daa1d8b29622f44f2d88d7b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/REX.h": {
+      "bytes": 8953,
+      "sha256": "745f844b19dd92c712e3e08f536be2094204dfecd8540537ecf508b4bebd2c31"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/ADVAPI32.h": {
+      "bytes": 668,
+      "sha256": "bf81980c1b65bb324709132d7423ca7d4931c802f9e4fa12fa8b5b9f89bfd74b"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/BASE.h": {
+      "bytes": 4461,
+      "sha256": "384ca935635188dfc9272599b823e852c55caa8776d473a9dbaf648a382c667d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/BCRYPT.h": {
+      "bytes": 4266,
+      "sha256": "69a4faf01527d76f0fd85212aa4d4f679aace0a0e04b293aa7c3e0962e329e76"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/COM.h": {
+      "bytes": 651,
+      "sha256": "4f3fdc1bb8b12912817730f76569a5f3ac0dbfa8019d450729f2b7c106044cf6"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/COMPTR.h": {
+      "bytes": 3475,
+      "sha256": "cc24d4db48ea81bdf7761c0bc9b0401815f968a62698cb1de553aebca8d7acd3"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/D3D.h": {
+      "bytes": 32968,
+      "sha256": "33202e49f1aa097030efa2600932e72ce6861388f9ac47c381c0ba697a0fdf54"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/D3D11.h": {
+      "bytes": 121331,
+      "sha256": "cca6b91286ac79c7597d49b1cbcc3273d1d58c989d37165f17992659652f3906"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/D3D11_1.h": {
+      "bytes": 16427,
+      "sha256": "63105cb207a84080d11a4e84950ef4339017cc109326532bb46a157a9a633879"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/D3D11_2.h": {
+      "bytes": 4707,
+      "sha256": "cb033c8d911a444774c939667c1b806c23ffe11f4dbbb08fad4b9ca4d76ca8af"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/D3D11_3.h": {
+      "bytes": 10927,
+      "sha256": "401e7a6324b8c6b990653a37259c735d736ed55ee426c10ce8afa363db6f276c"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/D3D11_4.h": {
+      "bytes": 6538,
+      "sha256": "34ae030bde5a874e4a7b51ad81043db15ac5cf4b9c5052d71906055f3700f793"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/D3DCOMPILER.h": {
+      "bytes": 7737,
+      "sha256": "a358548fe9c05447c5092e5ce97c542912a8f8e3dc980af370f7ae4c31b98e82"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/DBGHELP.h": {
+      "bytes": 1021,
+      "sha256": "b27e7e53f3f89ac66436939ccd609e13cce7c5a7e67ae3401548f6d378a3efcd"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/DINPUT.h": {
+      "bytes": 13997,
+      "sha256": "ea1ee981c6c849f348117a3e7685a246d93848ed9432955d9d685c4c7a22f690"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/DXGI.h": {
+      "bytes": 19159,
+      "sha256": "0315c738436065f3f95d9a99b283bb48ff44f86a8e33d893192898aba43b9b60"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/DXGI_2.h": {
+      "bytes": 11213,
+      "sha256": "342073ed1dad17fa4cf0b0ba0cad1acf4c535ed2119484e6ddaba21e455c734a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/DXGI_3.h": {
+      "bytes": 6062,
+      "sha256": "1eabcd50a308619006b3490ca5ff8fe5fda488baf199a5cabf51decbb6dfb5bf"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/DXGI_4.h": {
+      "bytes": 3488,
+      "sha256": "18c782cf63b7233de46f62fed5fe7c2eacec3d1e566c6ac8a9ac484b9b88e798"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/DXGI_5.h": {
+      "bytes": 2972,
+      "sha256": "673eb39e4614fb7410e65cd6e5aa41da766844d84a721575d1206ff37bd6b904"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/DXGI_6.h": {
+      "bytes": 3997,
+      "sha256": "625f7798ba1a47abe0288919f8e0b51e2a296be5b6fea0aa950d31d8f69624bb"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/KERNEL32.h": {
+      "bytes": 25954,
+      "sha256": "fa1b1dc99850ad1b06eb0e4e9c03717ebc7a429de4f1e69a61f0b786b9d11d07"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/OLE32.h": {
+      "bytes": 117,
+      "sha256": "491d505cf0442f130e8e132827e6ef84847e548c36c5addb5785c645de60a116"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/SHELL32.h": {
+      "bytes": 1728,
+      "sha256": "a7dd39838f0624c8c029d1ff18d8a8e93eb2535924243e9537fe0541028df9e9"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/USER32.h": {
+      "bytes": 6823,
+      "sha256": "d9751edb90a19d90730f13de7f6fe3657e549b6f8c72c11801dc88e1d0e8b36a"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/VERSION.h": {
+      "bytes": 994,
+      "sha256": "abc68ff353c6863eab3c2779ff6b0090763d5290597cfac28cb766b9bf9dd758"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32/XINPUT.h": {
+      "bytes": 2139,
+      "sha256": "0e073f75a8189a3e654912a17f04b1d1fca860de11682ae745e0f75543b6fb4d"
+    },
+    "extern/CommonLibF4/CommonLibF4/include/REX/W32.h": {
+      "bytes": 717,
+      "sha256": "92f1ff97b0cea4e52dd16e86f6366c60dfdd85a94df27e621975a06076317e36"
+    },
+    "extern/CommonLibF4/CommonLibF4/scripts/glob_files.py": {
+      "bytes": 2043,
+      "sha256": "c131083eda342aa73763c913bf187448080bb5e5d6dd633d82bd29979ae03394"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/F4SE/API.cpp": {
+      "bytes": 5921,
+      "sha256": "cc3527e3214cdacba8b100000af48960601d52c7820ef2b68f748bd33f15dd92"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/F4SE/Impl/PCH.cpp": {
+      "bytes": 28,
+      "sha256": "0eccce663f34307767f5f57f9c0679dc3105b222b1f128b808c2aa66332d4338"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/F4SE/InputMap.cpp": {
+      "bytes": 6368,
+      "sha256": "bf26a529b6c8bf59a600271ea47b8fbeed292cf1e60be4ba28d3535383e71437"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/F4SE/Interfaces.cpp": {
+      "bytes": 4450,
+      "sha256": "6cadd7e76a5c287ab8053043d5caa77481e36aa557e34152adaf89322b627f4a"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/F4SE/Logger.cpp": {
+      "bytes": 1672,
+      "sha256": "bf437f9fccb52261f0c9e01a37178d0983a114b25075b14629d1646000068c73"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/F4SE/Trampoline.cpp": {
+      "bytes": 7454,
+      "sha256": "99a7f9c1bb188400429e455c954f3306de268acf2bba3e5c18289a39bb943eb9"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/Actor.cpp": {
+      "bytes": 335,
+      "sha256": "12b824b341da00cf8bee7961adcb0c2923cd07ca6953e2f84b473ceac336bc0b"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BGSInventoryItem.cpp": {
+      "bytes": 289,
+      "sha256": "8d1bc791259cf16daa428a3b74ff9a7f731284706d30d4fd1f1fafc199db251d"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSExtraData.cpp": {
+      "bytes": 1088,
+      "sha256": "bc35a7a74d56af94b1a1902c0b4d7dd459081aa349105e09b84b52603f42e567"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSResource/Stream.cpp": {
+      "bytes": 5658,
+      "sha256": "2bcb66b76ab01e20a23a6777051f7ac89200828cf6b5f0d32334a08829b3254a"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSResource/StreamBase.cpp": {
+      "bytes": 1399,
+      "sha256": "686ec583482bda5249767c3f96b4d649857c0930c9c3a2de52beefe6232f5e20"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSResource.cpp": {
+      "bytes": 410,
+      "sha256": "f3e68e1fb23da35f9492a7f739056bb103e2501da0ed8693d2cef83cd0a525f6"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSResourceNiBinaryStream.cpp": {
+      "bytes": 2640,
+      "sha256": "dbac11a9f57b25316ebec673745496d8a157d4d31f3fb846f2a048af21498ead"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSScaleformManager.cpp": {
+      "bytes": 1489,
+      "sha256": "dd95216be05e3d8bb29f20de8423e74dc18ff215d8bc148af0ac59a8b5278f4c"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSScript/Array.cpp": {
+      "bytes": 3747,
+      "sha256": "9d51e4460430af56393fae88ea639b0deb031402e627f4366097899827fb4007"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSScript/Internal/VirtualMachine.cpp": {
+      "bytes": 352,
+      "sha256": "e57f9c5f4909b112a9cbeb0447561f1a8e0c557171a72d6a600989a3f4ec69e1"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSScript/Object.cpp": {
+      "bytes": 1687,
+      "sha256": "cd1818bcd87f4c4518e2bd8505ca1fdcbb49f1f878446e52952ed494222702b1"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSScript/ObjectTypeInfo.cpp": {
+      "bytes": 4888,
+      "sha256": "6099e017741a1586326172c45acae72c165b2786ac10287174d7ac5743ca5c78"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSScript/PackedInstructionStream.cpp": {
+      "bytes": 843,
+      "sha256": "ae63eb92feca13076c52e736c98891c83e0d59efa0da7e0c272e58d4838a784d"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSScript/StackFrame.cpp": {
+      "bytes": 567,
+      "sha256": "c3a185f66c68ddb607b94e415ea939bd84c041fe516f22fd4b01854dba1f12f1"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSScript/Struct.cpp": {
+      "bytes": 300,
+      "sha256": "feb8a68717ad647f72dbf170d69bc483dcaf90f61439fb202c40627f8c928f1c"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSScript/StructTypeInfo.cpp": {
+      "bytes": 206,
+      "sha256": "66371bc4f5bb48692282124bddaf5bd9aba4339392c3b1d5b6371fef2b6e556c"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSScript/TypeInfo.cpp": {
+      "bytes": 1236,
+      "sha256": "03e77b449cf2eff0a29353866cb748b236311dc7e99b2f9359d400bbc361cdb0"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSScript/Variable.cpp": {
+      "bytes": 2944,
+      "sha256": "9cbedef737c261cc8abb5d180413c97d9e00ff98c5ba906c5292b8b21d8d27fc"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSScript.cpp": {
+      "bytes": 74,
+      "sha256": "e958d253e4ee9f12d7d520f9186711bb4534a4383bbd9d06e87ce828e9ffec8a"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/BSVisit.cpp": {
+      "bytes": 1390,
+      "sha256": "26f9e556595708a99fbe39c98553416d41e88e56b0900a7769475f310e24f1e5"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/Calendar.cpp": {
+      "bytes": 383,
+      "sha256": "7ae70847a9dddfe0e41eddfa4e55c9ae353c1c4af8885f4497949e00413b6c7d"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/CRC.cpp": {
+      "bytes": 271,
+      "sha256": "ac79c95b7194463f11b8c4e993ea6f77078846dc30069126f3ca3a52532ee7c8"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/FormComponents.cpp": {
+      "bytes": 4433,
+      "sha256": "478cd6f0b8117bbc7b22c5651f77b0ab9afc651c7a97fb77e709c265b1b5886c"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/IMenu.cpp": {
+      "bytes": 244,
+      "sha256": "3ba80d0089c6e2e112635c9f75b3d85d8592bedb704f5596879122b2e5ea8739"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/MenuCursor.cpp": {
+      "bytes": 860,
+      "sha256": "4578abf2610a89f22798bbea6fad03b28da2af0a7621d84692bc8f7bdb66e11f"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/Misc.cpp": {
+      "bytes": 1023,
+      "sha256": "794baea03ec5f1e7f4badccc7d5fc8165791f8139bf503499d603337d1f64ad1"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/PlayerCharacter.cpp": {
+      "bytes": 1535,
+      "sha256": "40674b45dcbe648d92116a4f2ac70d8532db8fddf5396d0cc98fa9cd5593ec17"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/TESBoundAnimObjects.cpp": {
+      "bytes": 2189,
+      "sha256": "d6ff77fc3fde691a176add1ded338fca2dd914b8589790b0aaf233e3b5c46b5e"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/TESForms.cpp": {
+      "bytes": 1103,
+      "sha256": "2b4fd018e0033afb5e2979bdecb76008404ea3f26e59c879c5d320ab9c578b39"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Bethesda/TESObjectREFRs.cpp": {
+      "bytes": 410,
+      "sha256": "016144d1cd4dfce428b5da86c8d04576abfff594efce05c6ecebd2c6cddfa2af"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Fallout.cpp": {
+      "bytes": 10731,
+      "sha256": "3015002239a25447131f7a988660216af9e1f250d84bc9821c049694ef412471"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/NetImmerse/NiAVObject.cpp": {
+      "bytes": 1166,
+      "sha256": "5e5a9aa6ea69c56c43bd8c6479f115c33d3d31677499302f21659902cc810fb6"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/NetImmerse/NiBinaryStream.cpp": {
+      "bytes": 833,
+      "sha256": "323bf91fe01199474ddad0500bb56f6caf41aa710087cfcc9bbe5e79d52e7e5c"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/NetImmerse/NiMatrix3.cpp": {
+      "bytes": 7190,
+      "sha256": "75c7cded7aca2865123a363468c8ad49d5c3a393ce4c736707489a7ac2117b15"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/NetImmerse/NiObjectNET.cpp": {
+      "bytes": 502,
+      "sha256": "3d6768cf661fb270d8914b05e7689ad1a0b185e6f2aa46fd332e9c87cd771b2c"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/NetImmerse/NiPoint.cpp": {
+      "bytes": 11137,
+      "sha256": "ca4c08200d728235295dd0d8aba99d8249740581e3ab8ee9d3f0efc5daaa4e25"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/NetImmerse/NiRect.cpp": {
+      "bytes": 331,
+      "sha256": "bae66729b403161cbe4f1be41af2e9aace0650fda649bcb1de3baef9f40f5915"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/RE/Scaleform/GFx/GFx_Player.cpp": {
+      "bytes": 1457,
+      "sha256": "76d28e60a89e32e96f9eeaef1c6f6a2d3b5454f3bb52085eefaf7e442065ddd9"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/REL/IAT.cpp": {
+      "bytes": 2955,
+      "sha256": "58d2bffe506fff17539e598c964ce8d0bbe54fd19f9cc921320d4ccf85aa62df"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/REL/IDDB.cpp": {
+      "bytes": 9655,
+      "sha256": "9f429520fafed4343c82584717006b8e56ba8bf7ce3b8b0c52ec3c4563ad6137"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/REL/Module.cpp": {
+      "bytes": 3759,
+      "sha256": "3db19e7b2a78b3c8eaf4738c29524964f5d3f6f6160f1db2afe7640a85a00af5"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/REL/Relocation.cpp": {
+      "bytes": 1101,
+      "sha256": "bfa0cc1943e35218cf6c5aa3f554a8a171adb7e4aceb42f58d6608354de5bf58"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/REL/Version.cpp": {
+      "bytes": 2005,
+      "sha256": "0b222443da5e58e7cf2218d25f25c05d6e1059814cbb6d1a02d914c0cae4b7c0"
+    },
+    "extern/CommonLibF4/CommonLibF4/src/REX/W32.cpp": {
+      "bytes": 45886,
+      "sha256": "b6d53be33c042dc8288beb51c6dfec0c3695d5133607fb70aaa9f2811336413e"
+    },
+    "extern/CommonLibF4/CommonLibF4/vcpkg.json": {
+      "bytes": 332,
+      "sha256": "69c3de854cda2d11b26fb207cd3016285a8275f665772fa14e26f28413b2e6bf"
+    },
+    "extern/CommonLibF4/CommonLibF4/xmake.lua": {
+      "bytes": 9890,
+      "sha256": "abd3e1c08c938d2b82f8bf27c84dd3bc6734f560f0d80fdb590a64c9ba429b38"
+    },
+    "extern/CommonLibF4/LICENSE": {
+      "bytes": 1095,
+      "sha256": "469c88770b84f44a867219a557cb366e03a665b53b1b1d0e1c157b64653f497f"
+    },
+    "features/Mirrors of Fallout/Shaders/Features/MirrorsOfFallout.ini": {
+      "bytes": 24,
+      "sha256": "4161570d2c80dec21d4523b143b5f5b0048ba7010208b34306e903048f55115b"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/FlatMirrorEyePS.hlsl": {
+      "bytes": 9890,
+      "sha256": "1c03ee8e75b43d970033f728fb5afe196105b2ee6c45b23db02db194a6890c2d"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/FlatMirrorLighting.hlsli": {
+      "bytes": 10631,
+      "sha256": "7a7f40d2aaf5ca6b433f7074775d98145720da3ae7e22cca07cfe8f6d548e051"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/FlatMirrorPrivateSun.hlsli": {
+      "bytes": 8924,
+      "sha256": "ad3f88f5a1e178a9dcbb73d86974704d6e80db8b89898d7f96d3c993bd6eb492"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/FlatMirrorShadows.hlsli": {
+      "bytes": 11516,
+      "sha256": "b2d4e02d57379a320c7bc0c4978edb0c1093ba6d684e75e87d76abbb08027b3d"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/MirrorLightingABI.hlsli": {
+      "bytes": 310,
+      "sha256": "8c4e71b04f810e0462f2dcf33d7b99902865c3436ee154cc53c0632bac7667c7"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/MirrorNativeWorldBlitCS.hlsl": {
+      "bytes": 3439,
+      "sha256": "c2c8a3d87372cc4d11f46dbeee648acb1db7d62dd1f5a96ec8f2b746781a9d5f"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/PlanarCandidateProofCS.hlsl": {
+      "bytes": 4728,
+      "sha256": "4d40c8fb0630b4b1c7a5b106b4063093f08cfde61f6946d27bdb6c9a2c646b45"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/PlanarMaterialResolveCS.hlsl": {
+      "bytes": 17317,
+      "sha256": "86c47e5ad7e5e3acd4e0a8ea151b8d11526ad048ed296bed44372b1947dd39ec"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/PlanarMirrorDepthDownsampleCS.hlsl": {
+      "bytes": 1366,
+      "sha256": "1fb9d52ca8daefba56d87d8662efe9e75df79450e0d4d28c5acc8c001e55e7fb"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/PlanarMirrorFrameDeltaCS.hlsl": {
+      "bytes": 4985,
+      "sha256": "bfc787d5b82aa7dd25776a416fcef2176f0b572c000a67ed182628e611225da1"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/PlanarMirrorLightTilesCS.hlsl": {
+      "bytes": 6369,
+      "sha256": "7036e01b289bf7679ecc90eb6031df5871461a31750d533612ae409609df75cd"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/PlanarMirrorOverlayCS.hlsl": {
+      "bytes": 27137,
+      "sha256": "15494033f3c17c681f7c2c5edd1bacdf805b9bb402885d64b4d16b660d2c59e1"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/PlanarMirrorOverlayVR.hlsl": {
+      "bytes": 7138,
+      "sha256": "73607f42827f262be0243e85d13039ef5aae83844320dcf95c7de7b0eb09dcd6"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/PlanarMirrorPlayerOverlayResolveCS.hlsl": {
+      "bytes": 5249,
+      "sha256": "13b7a5134e8d773f5ae5876635a158bf2e44bd863a56495276f5dc7e79ffe18b"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/PlanarMirrorResolveVR.hlsl": {
+      "bytes": 4244,
+      "sha256": "8789a42ef4c34182cd6b2f3a30593e63bb022165611a6c73f411638644adb2ae"
+    },
+    "features/Mirrors of Fallout/Shaders/MirrorsOfFallout/PlanarNativeLitPlayerOverlayCS.hlsl": {
+      "bytes": 2657,
+      "sha256": "1115ace4d61f16ceb2a795786de806efa1dbef93becbc1c709bf7bf077510945"
+    },
+    "include/CheckedDetours.h": {
+      "bytes": 1488,
+      "sha256": "cae3e10934869f6f2307b8ee9732a00b45878e89ccfb2834dc5bf75fd98f1ac5"
+    },
+    "include/MirrorsOfFalloutCompat.h": {
+      "bytes": 2813,
+      "sha256": "d3c1d6307db4ca0372f903b382582a62412c484f5a5176a957d7e35bc3c51314"
+    },
+    "include/PCH.h": {
+      "bytes": 5353,
+      "sha256": "e72a16e2a9a0330d457957544bf22ea9a7509fcc6b40dbb0259ee05088927660"
+    },
+    "licenses/cppwinrt.txt": {
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    "licenses/detours.txt": {
+      "bytes": 1099,
+      "sha256": "b301808b732cfaa60df2b4b422d78cd97d2a15058b207e7e33f0535ba5170dd6"
+    },
+    "licenses/directxmath.txt": {
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    "licenses/directxtex.txt": {
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    "licenses/directxtk.txt": {
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    "licenses/eabase.txt": {
+      "bytes": 1529,
+      "sha256": "485bdf6b3c6382c1db6a4dbba51127d960d145ad6c9be45652f5a36430ff8b98"
+    },
+    "licenses/eastl.txt": {
+      "bytes": 1523,
+      "sha256": "cebc1fa5ade455a79f821180cf86bf5f9717dd1df5704b4c2a3bb0617ab35f2a"
+    },
+    "licenses/fmt.txt": {
+      "bytes": 1431,
+      "sha256": "07580f2a3b35709ce703d523f447b242f6dfec7582a8c0df102c7fa2849375f8"
+    },
+    "licenses/imgui.txt": {
+      "bytes": 1083,
+      "sha256": "438f0d4dd95acd6723a8f2996ec365245de154ff52a390aa644624aa95aabf2c"
+    },
+    "licenses/magic-enum.txt": {
+      "bytes": 1080,
+      "sha256": "bd227b8a5586dc73012262abfc0fc4eb84c2a91ad3f93b3591f8148fe17324d3"
+    },
+    "licenses/nlohmann-json.txt": {
+      "bytes": 1076,
+      "sha256": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603"
+    },
+    "licenses/rapidcsv.txt": {
+      "bytes": 1518,
+      "sha256": "8e60b029b7a16c4087af1e8dc695e4412f36f46819aa2fe1ef445e7776e40594"
+    },
+    "licenses/rsm-mmio.txt": {
+      "bytes": 1070,
+      "sha256": "ebeeefa102269964ea6c45ced49d6d33df40cb7bacccb983a9f84b6140afc73b"
+    },
+    "licenses/spdlog.txt": {
+      "bytes": 1323,
+      "sha256": "d678c20826e1392578508e1c78649a1e3c31bda05ef4388d967dbd654461b140"
+    },
+    "licenses/stb.txt": {
+      "bytes": 2510,
+      "sha256": "bebfe904b14301657e4e5d655c811d51fd31b97c455b9cc2d8600d6bac6cff63"
+    },
+    "licenses/unordered-dense.txt": {
+      "bytes": 1078,
+      "sha256": "4f5a62734899ec0ba85d3e8264a7ed1fcb4bcb8f0b4359c0afd627b6314ae599"
+    },
+    "licenses/xbyak.txt": {
+      "bytes": 1501,
+      "sha256": "7e411d5c5d38501a504843f58afb6824439c828872b35d2ff1e892e73fd1a30d"
+    },
+    "package-mirrors/Materials/MirrorsOfFallout/Authoring/MOF_MirrorSurface.bgsm": {
+      "bytes": 375,
+      "sha256": "147cd80f75f0f8e616b4e491d103bb0a3ffd0751dc3b3b4258e6e125931f5d67"
+    },
+    "package-mirrors/MCM/Config/MirrorsOfFallout/config.json": {
+      "bytes": 6156,
+      "sha256": "7ab776ec5a808a288dbaad9e3b3de81f11577ca0f17e0cde8f64dcdab43041bf"
+    },
+    "package-mirrors/MCM/Config/MirrorsOfFallout/settings.ini": {
+      "bytes": 2810,
+      "sha256": "577b6f60b5377bcbc05a582bdce8555ce9b4cf38a8c3e572781fc25f275052aa"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/CabinetStanding.nif": {
+      "bytes": 35782,
+      "sha256": "38564b751f87e1100a6485a72cdc6e3682432f3fdded9513c781634b344dd37f"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/CabinetUnitWall.nif": {
+      "bytes": 39448,
+      "sha256": "c053eb7ad9c28fe7b2427e08059bdf055f6ef068ee45efed0af42f84f0696092"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/CabinetWall.nif": {
+      "bytes": 3107,
+      "sha256": "77b4346c66bbe34f8fce4ce841cbadf75949a31e8a8b04dab640f722d5f9d354"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/CabinetWallGigantic.nif": {
+      "bytes": 3131,
+      "sha256": "6842d224ea918b6f68fff44a805170ef83db1a1ee6bd04db761c4b56ffec9135"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/CabinetWallLarge.nif": {
+      "bytes": 3122,
+      "sha256": "8c4bed3a259dece5390c9eb4ebce8ffa9e9792e8206f9e9f3ab2a0f8723268e0"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/CabinetWallMedium.nif": {
+      "bytes": 3125,
+      "sha256": "036b7f4f8fdde484af176000e4ccb8a190d94c02558adf06ab95a3834338e9ae"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/CabinetWallVeryLarge.nif": {
+      "bytes": 3134,
+      "sha256": "32d1523995c794cd25f13b5c965ed294493406bc628e9c9058b5db388137d0f2"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/Cracked/Mirror01.nif": {
+      "bytes": 29284,
+      "sha256": "5a1022f5487e0ede0164ab62eeb7074fcc07070d6f8ba76bf71774e121c28a43"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/Cracked/Mirror01a.nif": {
+      "bytes": 29569,
+      "sha256": "632c7c317e2e9fafc30aaaf75f7edf6d564ef58f8d803bc4d2bc93cbfbd626cd"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/Cracked/Mirror02.nif": {
+      "bytes": 15918,
+      "sha256": "fdcde75222ca598e6da8d2d32613494f31ba59448e26f58fa8a1fc55634d0cab"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/Cracked/Mirror02a.nif": {
+      "bytes": 15521,
+      "sha256": "169d5f9f748e880fe879cbf154372e60b6f2fd3095495e772e60cebaea57a827"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/Cracked/Mirror03.nif": {
+      "bytes": 16090,
+      "sha256": "1fea05f5a211c39699390e242245ef69aa3caa0fb5f0e62db5eb98b735800a6c"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/Cracked/Mirror03a.nif": {
+      "bytes": 13589,
+      "sha256": "3ae919bc9bc9fc4f2af679f2e15723505ba5e038d773ea0948563068496ea062"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/RoundMetalWall.nif": {
+      "bytes": 47476,
+      "sha256": "3994ff300cfa498f92b4a59ba1bb7fbf30b22b1ac90b2f16958c0ae833bc5cc7"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/RoundStanding.nif": {
+      "bytes": 12526,
+      "sha256": "35dc923ae5accfa5c48fa92b48814930620a4cfb6b9a8181fadf2fca0c8e452b"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/RoundWall.nif": {
+      "bytes": 7420,
+      "sha256": "b6e13052567d29990ad937e567b9ae9a1c6383830664c5e5a8d4034dd1b1c3b8"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/RoundWallGigantic.nif": {
+      "bytes": 7452,
+      "sha256": "fe350f5826e48d0a7a1774f6f2ad5a49043f17ed4e3b36e65abd27cff38474ed"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/RoundWallLarge.nif": {
+      "bytes": 7440,
+      "sha256": "baf895d1c72d50cfdf8e15c6d83c1e653850ad19d5a2d8d44d7e2411200e5106"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/RoundWallMedium.nif": {
+      "bytes": 7444,
+      "sha256": "faf336735dd046805527a32ade22f77db9260c787ca72f0546e7e0b035b37997"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/RoundWallVeryLarge.nif": {
+      "bytes": 7456,
+      "sha256": "22fe302ebe7ab3e0d319d81f3710c0413b94bc74b91cfeca6e3fd428038e9c9a"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/VanityStanding.nif": {
+      "bytes": 11338,
+      "sha256": "321f1c3f7e52b97c6cf902c30b0eeb9cbc80fe61e5e7721e9596e1c01b0c8f30"
+    },
+    "package-mirrors/Meshes/MirrorsOfFallout/Workshop/VanityWall.nif": {
+      "bytes": 6228,
+      "sha256": "6217588df058d6f1deea5979ca8d78b395a9e507361eb16b8cfde1b8df8e89af"
+    },
+    "package-mirrors/Realistic Reflections - Mirrors.esm": {
+      "bytes": 8443,
+      "sha256": "bce64ba04b26de9793b98be52cf8c2e6e5d17a0b1ab52fb9c4805f1d9b985cfd"
+    },
+    "package-mirrors/Textures/MirrorsOfFallout/Authoring/mirror_surface.dds": {
+      "bytes": 192,
+      "sha256": "a7ed1a47974115c724432a626a7448d0ee4d16b6d58f293b8c6c2c87ad6c1c70"
+    },
+    "package-mirrors/Textures/MirrorsOfFallout/Authoring/mirror_surface_n.dds": {
+      "bytes": 192,
+      "sha256": "53a31f1f562d93fc15316bd6f93d9ce56152a85602d8de8d76258c6cbc8754c8"
+    },
+    "package-mirrors/Textures/MirrorsOfFallout/Authoring/mirror_surface_s.dds": {
+      "bytes": 192,
+      "sha256": "b91f2cdef219c7696a1c7421d87cac5b3f68dac1d2f47c4d3d3bb8931d4dc0db"
+    },
+    "package-mirrors-vr/Materials/SetDressing/PlayerHouse/PlayerHouse_BathroomMirrorENV01.BGSM": {
+      "bytes": 410,
+      "sha256": "378a520a3502583eadef2cae2e20b2fe4de1b0fa2e2fd059dfa2fc0a7bbc2530"
+    },
+    "README.md": {
+      "bytes": 3760,
+      "sha256": "5ebaa24d7de05815c1742e14f48c43ca468cdb02fa075ad288ae861606b0c8c2"
+    },
+    "src/Features/BSShaderTables.h": {
+      "bytes": 1143,
+      "sha256": "3cb3ce964f145bc70efed40f029c5d0e41215cab36b4d3977a52f2593b81a0f9"
+    },
+    "src/Features/CellMusicFallbackCode.h": {
+      "bytes": 567,
+      "sha256": "29d0c863b0350d1b55edb2181f5ba0f2d60eedd4327d8ee911733cede6bb9e8e"
+    },
+    "src/Features/FlatDeferredPlayerCapture.cpp": {
+      "bytes": 444855,
+      "sha256": "67e54c4a57d54e2de7baae6102c2f7d42aa3bd1c78b73a5a64970a246239d595"
+    },
+    "src/Features/FlatDeferredPlayerCapture.h": {
+      "bytes": 37868,
+      "sha256": "87d2a7bb89d6fbc65e22b699ec6ff9a6e1a226c127916715b723945a6723b35d"
+    },
+    "src/Features/FlatMirrorAnimationTarget.inl": {
+      "bytes": 4509,
+      "sha256": "bf7474dee535b8511bfbf1e9fcb73cf921c06930bad590ad3b0b7dd42aac120c"
+    },
+    "src/Features/FlatMirrorCaptureSync.inl": {
+      "bytes": 8323,
+      "sha256": "e08cff14c92ace75cfd471363459565914014d57a7260f471be547a9cae89fba"
+    },
+    "src/Features/FlatMirrorClothPose.inl": {
+      "bytes": 8703,
+      "sha256": "ad8edc7ed5bded079f6685aca6f31686da22480c0ebf09274cc0abcf24337b6f"
+    },
+    "src/Features/FlatMirrorClothSimulation.inl": {
+      "bytes": 18927,
+      "sha256": "f3974e5a1cf320b3f18967b2869fe33beb71f0e9dfb1f0c8a4d09966f55898ab"
+    },
+    "src/Features/FlatMirrorCompletedPoseBuild.inl": {
+      "bytes": 4038,
+      "sha256": "af40566997889944a88712f4ab73b4f109989677f0964de58772e28c3a76deaf"
+    },
+    "src/Features/FlatMirrorCompletedPoseCamera.inl": {
+      "bytes": 2345,
+      "sha256": "9642c8ad13c4ad2a689f932818a505ca6f9b82b4528cbf0ebae5d84abf49053d"
+    },
+    "src/Features/FlatMirrorCompletedPosePublish.inl": {
+      "bytes": 3492,
+      "sha256": "f1628035b5285fbbeb2a0512e373d1d54895a9dace7746002f1cc48c1e38ef1e"
+    },
+    "src/Features/FlatMirrorCompletedPoseRender.inl": {
+      "bytes": 7475,
+      "sha256": "b1c6d377ca2441e3f6061c671f85cfc59b29790375d4252c67676af07bfd9500"
+    },
+    "src/Features/FlatMirrorCompletedPoseTypes.inl": {
+      "bytes": 1750,
+      "sha256": "a5c0a986ea860684fd0a726c3f00f862f3825a2f68715bf2e985b0f09f4f754d"
+    },
+    "src/Features/FlatMirrorEffects.inl": {
+      "bytes": 3606,
+      "sha256": "22b330e26a4f05fe2f6f35165e49003107da90a74b054647620f0c4f8e221bcb"
+    },
+    "src/Features/FlatMirrorFleet.inl": {
+      "bytes": 7396,
+      "sha256": "36d48c3d761daa6c04b53bed095ee76a97309d8ecb5ec01e1ff38a5a396c7c64"
+    },
+    "src/Features/FlatMirrorHeadClearance.inl": {
+      "bytes": 4999,
+      "sha256": "4039428ed8f1eb17171477dffc4249a5481aaaa04f7152fcd3f6b5786a95adef"
+    },
+    "src/Features/FlatMirrorLandingTrace.inl": {
+      "bytes": 2635,
+      "sha256": "f56482dc100d8f3c56613273c44ffdeabd19d4db5570172dd0824a8b4acbaa50"
+    },
+    "src/Features/FlatMirrorLighting.h": {
+      "bytes": 15279,
+      "sha256": "6f7630e86561c25760959c48e8a007bb1b254fcaae6bb31198f67c274b9f3938"
+    },
+    "src/Features/FlatMirrorLightingObservation.inl": {
+      "bytes": 4140,
+      "sha256": "a8e87b6fb5b0788ea8a2c6ced04c8690ccbb05f5bd677c9eb6a579c81317b36d"
+    },
+    "src/Features/FlatMirrorLocomotion.inl": {
+      "bytes": 4178,
+      "sha256": "10fbe02f1413a27aff3ff08d2ffb1d1252fe8b52fae0ad1a69a6cce1defc3460"
+    },
+    "src/Features/FlatMirrorNativeAmbient.inl": {
+      "bytes": 5103,
+      "sha256": "c565b2accd3167af1f4808e289640fbbed4c9304bf58caa0aee353c22fadf8b9"
+    },
+    "src/Features/FlatMirrorPlayerAttachments.inl": {
+      "bytes": 7883,
+      "sha256": "517d2bfbcf93ccb4efdfdebdab721b438f2a266b2020293b885f3ccf9a04c0ea"
+    },
+    "src/Features/FlatMirrorPlayerPoseEpoch.inl": {
+      "bytes": 2644,
+      "sha256": "688e810c0a673048bb1d93302bb9adb13ed310afb108cc11ab094732e8e2bf4c"
+    },
+    "src/Features/FlatMirrorPrivateSun.inl": {
+      "bytes": 39592,
+      "sha256": "60cae659aeffa2c5fbdb5c019a7009cbf201ec2b1bc9b744aeba0cbe13e7b95f"
+    },
+    "src/Features/FlatMirrorResolve.inl": {
+      "bytes": 17372,
+      "sha256": "312ebd5872b6806c41b64f22c6c1ac11a21e931b20283c0fa9a7524a410f571b"
+    },
+    "src/Features/FlatMirrorShadows.inl": {
+      "bytes": 25317,
+      "sha256": "33ca5bfbdc1de9eb6584c9b8faf1e9213776e93e0f01983b924ad5d9996dd056"
+    },
+    "src/Features/FlatMirrorSky.inl": {
+      "bytes": 4875,
+      "sha256": "4efee5d41ab4148a9ae71e06c6aaa9d44450f344027860a4dea92238a6fdedb1"
+    },
+    "src/Features/FlatReflectionRendererOwner.cpp": {
+      "bytes": 117064,
+      "sha256": "f039cbf0ae6a4887ab11bf5f08cf39978cc63af3b6b41cfb63861e4438b3ce05"
+    },
+    "src/Features/FlatReflectionRendererOwner.h": {
+      "bytes": 5179,
+      "sha256": "99a4ceaccc2b5bdc499390345d26c276cea6f1c38a51debd1cf3f8ce7b7ce005"
+    },
+    "src/Features/MirrorActorAnimation.h": {
+      "bytes": 2721,
+      "sha256": "0caae4255ad20894275123c56f4da89d254d126218fec4531d8fc9d46cdd432a"
+    },
+    "src/Features/MirrorAdaptiveQuality.h": {
+      "bytes": 8953,
+      "sha256": "4ec90abe82addc459f60275ed99a2e638c97f024c3328e04412841230042dec5"
+    },
+    "src/Features/MirrorAnimationBinding.h": {
+      "bytes": 690,
+      "sha256": "1f1c952f39b9bc12d3e1dcec846dd211e38e5c30e4395b95c3c09d92f5344fff"
+    },
+    "src/Features/MirrorAnimationEvaluation.h": {
+      "bytes": 1351,
+      "sha256": "e74032fa9242b70cf57c97a602a337a377ee37fdfefbbf1169c714843d9f579d"
+    },
+    "src/Features/MirrorAnimationInputs.h": {
+      "bytes": 4937,
+      "sha256": "8ec7c60fcabbca9fbbd6961f044a005e062d38e0a377d2c5d50e9abdb224bb72"
+    },
+    "src/Features/MirrorAnimationRequests.h": {
+      "bytes": 1383,
+      "sha256": "5c9e5fe4cc6acd8fe2be2bb6427385a7354c1a0377349e1880118608cc5efc6b"
+    },
+    "src/Features/MirrorAnimationTarget.h": {
+      "bytes": 3449,
+      "sha256": "a6ef503330ce1eeca3aab214560b55e015159e619c8c5a2f4ad2ffba35ec4a36"
+    },
+    "src/Features/MirrorAuthoring.cpp": {
+      "bytes": 16750,
+      "sha256": "92ed5df9d145e92812f2d104ae2c91a0f825b8421257d4bb14329a5ca6991728"
+    },
+    "src/Features/MirrorAuthoring.h": {
+      "bytes": 1053,
+      "sha256": "ce1965f62416be16515d82f3e8c0243707e1e3d2236d74cd6edc76aaef0b3dc7"
+    },
+    "src/Features/MirrorAuthoringGeometry.h": {
+      "bytes": 4826,
+      "sha256": "1a507068152fa958dc4eaffed7d2e5317ef61d6ffd80117e1853260e1acdfcf4"
+    },
+    "src/Features/MirrorAuthoringPath.h": {
+      "bytes": 978,
+      "sha256": "0c987598ac66061a30e6e2034fb8cba469c15005a73772f282ea5ab622267ac1"
+    },
+    "src/Features/MirrorBenchmark.h": {
+      "bytes": 3975,
+      "sha256": "afcf00524af63520abf2f99624f0e59886a2d0e5729838fcf45624de297e2e65"
+    },
+    "src/Features/MirrorBodyPlacement.h": {
+      "bytes": 1106,
+      "sha256": "db80bc4d305019d9d574931aec1da279080b53b91b0bcfea76b49349425bc17f"
+    },
+    "src/Features/MirrorCaptureEvidence.h": {
+      "bytes": 3748,
+      "sha256": "f681422556156133129add3a562097fbfd83e7c6fbd8f07c680e178ad7f9afc2"
+    },
+    "src/Features/MirrorCaptureExtent.h": {
+      "bytes": 1008,
+      "sha256": "21805b50108c75e3c33c1d46302368b39c8d0773aeb7dd489487194a21a8c442"
+    },
+    "src/Features/MirrorCaptureOptimizations.h": {
+      "bytes": 5344,
+      "sha256": "074b75d23221a44f5f152cc241dd316b433cdfa28b6567813a82d28ecceab1bd"
+    },
+    "src/Features/MirrorCaptureResourcePool.h": {
+      "bytes": 4380,
+      "sha256": "8bee8faf790820e3be7d41976585b0647aefad8137bd5d3f75a13fd246597b93"
+    },
+    "src/Features/MirrorCaptureSync.h": {
+      "bytes": 1327,
+      "sha256": "7b73dd08133fd39b2a2ee309ccd776625cef7b9db38588a07647ad5f1f60b833"
+    },
+    "src/Features/MirrorCloneControllers.h": {
+      "bytes": 2489,
+      "sha256": "f4551928a9782bdc6b8b4e834a177a07a0bc581035686dc9833628aedbf42885"
+    },
+    "src/Features/MirrorClothPose.h": {
+      "bytes": 5242,
+      "sha256": "cd2b30426248356c8434696c7c1f73dc78ff14f17885378042a37ea526f72fb0"
+    },
+    "src/Features/MirrorClothSimulation.h": {
+      "bytes": 1651,
+      "sha256": "bafa80981bf71c53d147c67d5252252387ab849ee391506932aecea74d4a74d7"
+    },
+    "src/Features/MirrorDefinitionRegistry.cpp": {
+      "bytes": 26981,
+      "sha256": "b4ae49d12c31ec08fe07e3c944c0bacdb8455b98628e9b53ede64b510216fc7f"
+    },
+    "src/Features/MirrorDefinitionRegistry.h": {
+      "bytes": 6443,
+      "sha256": "922ed722ca4668d0301aa92efc6513ae1aade72347d496c0c6e9f647a45d7a77"
+    },
+    "src/Features/MirrorDrawDispatch.h": {
+      "bytes": 1457,
+      "sha256": "55ff0c222a7a27c50da789539f9b42d6aa49d5c450b026454e718ddb44b6b1dd"
+    },
+    "src/Features/MirrorDrawHookRegistry.h": {
+      "bytes": 2273,
+      "sha256": "c0aae9e12033e07dd07e6b6cd0fadc73c13dcc8fbf7b810ac3df5386134d55d7"
+    },
+    "src/Features/MirrorEffectPasses.h": {
+      "bytes": 1407,
+      "sha256": "5459d73bad8a5720f69a5d2243961450c5091b5c8115efbb31df61a7d99db6ed"
+    },
+    "src/Features/MirrorEffectState.h": {
+      "bytes": 4189,
+      "sha256": "22917bee6c4e85c0fee38f67d39ea4d374347760c60b67af141a42597f9ea7ca"
+    },
+    "src/Features/MirrorFaceGenSnapshot.h": {
+      "bytes": 869,
+      "sha256": "168141ef5aed3ac5ecad7d6518d001b499c65d274366ffd63ae5ef26f0105107"
+    },
+    "src/Features/MirrorFleet.h": {
+      "bytes": 7103,
+      "sha256": "e0c49360d918456bc9ebae43d5be11456efa19b9c3f3f87cc416c3fb6e11f2ef"
+    },
+    "src/Features/MirrorFleetImages.h": {
+      "bytes": 3888,
+      "sha256": "2559d8c8f975dfdd3a543f66193610a0b8f0c652e7aa9dc648ce21d1b3088137"
+    },
+    "src/Features/MirrorForeignRig.h": {
+      "bytes": 1231,
+      "sha256": "ad5c279e8b53bbc322dc9bc63328a275c2647fe5a31c791d694e21ce1dacbae7"
+    },
+    "src/Features/MirrorForwardLights.h": {
+      "bytes": 1355,
+      "sha256": "47d88bea28dc656f3d8fe030118744be097089108543d2492b21e678e84c057d"
+    },
+    "src/Features/MirrorForwardPassProof.h": {
+      "bytes": 1208,
+      "sha256": "f64162bc8022da069b42c84ea38e95f54729aad6a65b9614674146ddaeeca019"
+    },
+    "src/Features/MirrorFrameHistogram.h": {
+      "bytes": 1190,
+      "sha256": "2f8bc0c918b9ba5294b0b683932290e9c50070f168a6d22c6f3fba1c0bd87401"
+    },
+    "src/Features/MirrorFrameTiming.h": {
+      "bytes": 1637,
+      "sha256": "e903b48007b614de4a2d10ff77745398a6db1fb2b0d220d585e078bbf4c3f55b"
+    },
+    "src/Features/MirrorFrameworkMenu.cpp": {
+      "bytes": 2335,
+      "sha256": "5290fe7a6f2d6b1ebb728a9ef83f9766cec2b88cfca86ca54cb04817aa204e16"
+    },
+    "src/Features/MirrorFrameworkMenu.h": {
+      "bytes": 141,
+      "sha256": "e07c4c7566099826657cccd3554555efef9c15cdb25444cda1bab42517e26f19"
+    },
+    "src/Features/MirrorFrameworkWidgets.h": {
+      "bytes": 2578,
+      "sha256": "fe6a068e65130b98cf317627c73311de4a03a87d7c955b493a370c31aaeaf9e2"
+    },
+    "src/Features/MirrorGpuTimer.h": {
+      "bytes": 3348,
+      "sha256": "7129b4a15a135f395ca6267b483ebdb2524e9a7338598e5d5263745ba86b73a1"
+    },
+    "src/Features/MirrorHookCompatibility.h": {
+      "bytes": 3427,
+      "sha256": "eb80e3287650f03b1874ddeb8013c172e7a2b37da5c7df6618f42d9e50cb18d2"
+    },
+    "src/Features/MirrorHookDiagnostics.h": {
+      "bytes": 5281,
+      "sha256": "16374764a160d36c22e3fcb4a89b4c8e313f00f6416fa4b6e2cc7ea38f3043eb"
+    },
+    "src/Features/MirrorLightFade.h": {
+      "bytes": 2232,
+      "sha256": "704844942a0ff5e6d7f48a3a405ff718901bcf3a74c81c0872220824b092d97e"
+    },
+    "src/Features/MirrorLightingLease.h": {
+      "bytes": 2161,
+      "sha256": "439233c11dba867935d86dfdbfc79d2ec849a59a01636cc8303e1a4855a4d60b"
+    },
+    "src/Features/MirrorLightingReadback.h": {
+      "bytes": 6586,
+      "sha256": "199091903d49df6a810bc43e4f6425745eb7a052458bab223fd25bbf5f1d14eb"
+    },
+    "src/Features/MirrorLocomotion.h": {
+      "bytes": 1417,
+      "sha256": "5322023d220756813df049f939aa6aaed75356bffcfaa0eba0db0a6c3d5069a1"
+    },
+    "src/Features/MirrorLocomotionRequests.h": {
+      "bytes": 5831,
+      "sha256": "64a3d848899ec01126537ee89072918c22ee0fae4193cf373add4cebdd2d4d86"
+    },
+    "src/Features/MirrorMainViewReadback.h": {
+      "bytes": 2844,
+      "sha256": "3ff3177b49b134443e031d3fc1b20304c4ff7e9c1d18f56a953e0666b28e76eb"
+    },
+    "src/Features/MirrorMaterialLayout.h": {
+      "bytes": 1237,
+      "sha256": "4a5ae1729e7d51eb53762bf896217be35c9d23a2293a014bb7f71d8edeb8cac4"
+    },
+    "src/Features/MirrorMenuCompatibility.cpp": {
+      "bytes": 3210,
+      "sha256": "b6c43ff49b18fc79e531cd1b777b0c835bf46b749e68afd9996c4557f22452b6"
+    },
+    "src/Features/MirrorMenuCompatibility.h": {
+      "bytes": 80,
+      "sha256": "eca7548d4b190702975db1b9efd7c527873899a9ba8fda2dd3b55b32daba00fb"
+    },
+    "src/Features/MirrorMenuRenderTarget.h": {
+      "bytes": 2729,
+      "sha256": "b865bac6b7d0ce287a0ed3038e08b28e78d79ded3894488fd0f42e86c2e65b1f"
+    },
+    "src/Features/MirrorNativeAmbientProbe.h": {
+      "bytes": 6478,
+      "sha256": "ec82a0012016e135494bb8243afb422fefaf5cf7067969d455e396c1c567d180"
+    },
+    "src/Features/MirrorNativeLighting.h": {
+      "bytes": 4038,
+      "sha256": "ec42cb105a3d785dff819ce494283971f15c3b25c1bf275be775ecc20f0c6fd1"
+    },
+    "src/Features/MirrorNativeViewport.h": {
+      "bytes": 1544,
+      "sha256": "d4c10aabeaac757d9f069493622b8f73edff713922a4e947b4eb750996621459"
+    },
+    "src/Features/MirrorNativeWorldPhase.h": {
+      "bytes": 1135,
+      "sha256": "17b4563ae2d9c29dded966b0c18d67454ab72096ca7036629bffc1fce59eed23"
+    },
+    "src/Features/MirrorNativeWorldReentry.cpp": {
+      "bytes": 9142,
+      "sha256": "55a04dbb1f906493fd292a70429ceabf6ab19c825ba085914fc2c41c482725f9"
+    },
+    "src/Features/MirrorNativeWorldReentry.h": {
+      "bytes": 1862,
+      "sha256": "1134fb07f1a155a1e55bc00bf4c62385213f878a08b7fb123e449fbb95ffd423"
+    },
+    "src/Features/MirrorNodeVisitSet.h": {
+      "bytes": 943,
+      "sha256": "3af7dd6d06a8777c65ee7b53b552db86f9de7f7b44b025f299a827afb2699c43"
+    },
+    "src/Features/MirrorOverlayMetrics.h": {
+      "bytes": 3922,
+      "sha256": "c769fa2f0df81a726a2e7746f6faf1d711f50786cfde507c3653063a3afe1f7d"
+    },
+    "src/Features/MirrorPassPoolLease.h": {
+      "bytes": 1615,
+      "sha256": "ce807964d2d3b80313ba1c143bc070c33e1590d6bc243cbc5c5c4494d7db9fb2"
+    },
+    "src/Features/MirrorPassSelection.h": {
+      "bytes": 962,
+      "sha256": "d6789bf08c110ca442dcceaa27386c85b3de32ab0d58313bb032479bf41511a9"
+    },
+    "src/Features/MirrorPerformance.cpp": {
+      "bytes": 36259,
+      "sha256": "37be8954b8f621c891844b34ba13f40b0762fc4db70bc4f0bebf98b375e64594"
+    },
+    "src/Features/MirrorPerformance.h": {
+      "bytes": 4159,
+      "sha256": "3baf20ce758ac468ed135dd1b243cec1e83eae40f0b7f56c98db6d516df9ca16"
+    },
+    "src/Features/MirrorPerformanceOverlay.cpp": {
+      "bytes": 8390,
+      "sha256": "ccda78944aedf148f5da54ef4ca9cb1a1b335ccc78c8554cdaad848da9784026"
+    },
+    "src/Features/MirrorPerformanceOverlay.h": {
+      "bytes": 150,
+      "sha256": "767f8ee69ef583828d75f11796297803b4b544d24e559ed0d4bee883d7b4eda8"
+    },
+    "src/Features/MirrorPlayerDrawRequirements.h": {
+      "bytes": 535,
+      "sha256": "5872802bbcdd27296ed9b64b6a621614edfb477045da99e0435fdcf235a41e1d"
+    },
+    "src/Features/MirrorPlayerPoseBatch.h": {
+      "bytes": 1930,
+      "sha256": "0218c756009182bf00e1f5a6d6b14072c14a29fc2f460a263f2e6b2f74350e59"
+    },
+    "src/Features/MirrorPoseExchange.h": {
+      "bytes": 1461,
+      "sha256": "ccb1e9843518ad51189167cdba82b6932476f79d622140372eb45c3521c91d29"
+    },
+    "src/Features/MirrorPresentationPool.h": {
+      "bytes": 5505,
+      "sha256": "ffd762ae23f0016d5058ba0f5202135a8eb32165302bd593f548da3cc1cbbddb"
+    },
+    "src/Features/MirrorPrivateSun.h": {
+      "bytes": 16888,
+      "sha256": "30eee46e77bcc568f1b2ca6e12594971eb3f849a4a05f072e772446f4f88628b"
+    },
+    "src/Features/MirrorQualityControls.h": {
+      "bytes": 1325,
+      "sha256": "a5d1b0f699a38af3332e450c76dbfb42f003c186fd6fd88a7954f1552d6d0fad"
+    },
+    "src/Features/MirrorQualityMenu.cpp": {
+      "bytes": 9876,
+      "sha256": "85cbd75835c621f25efa322c06068088ba3dcfaec1107b2cc199d14043af5f5e"
+    },
+    "src/Features/MirrorQualityMenu.h": {
+      "bytes": 64,
+      "sha256": "b032293e96f98fe3282414d6efabdaa2032f61d1be2ef1e81c0118748b4d4c0b"
+    },
+    "src/Features/MirrorQualityMode.h": {
+      "bytes": 807,
+      "sha256": "0ef217038b7516298bccab2ac4f36155392f82c6fdde98080a231420052f48c1"
+    },
+    "src/Features/MirrorQualityPreset.h": {
+      "bytes": 1331,
+      "sha256": "0ccae225cb5a5cf350574a252f7d91dd103cb221747f35f48d8e5287911e6007"
+    },
+    "src/Features/MirrorReferenceTable.h": {
+      "bytes": 37039,
+      "sha256": "fa26c4b078792cdd181283d3df3d3ba1d63ebc34dd8123c0c204b0e332cdd64d"
+    },
+    "src/Features/MirrorRelaxedGait.h": {
+      "bytes": 2716,
+      "sha256": "f3c7ae0e1e0db1ef07b03f66460dd273a49d395974dcaf77421468adbde70170"
+    },
+    "src/Features/MirrorRelaxedHeading.h": {
+      "bytes": 981,
+      "sha256": "048e65ae4838bdd0c9d3150c6454245b17d76031e3f07796aebac0430186f9d4"
+    },
+    "src/Features/MirrorSceneRange.h": {
+      "bytes": 1797,
+      "sha256": "834d54ca63a7f847c56e249c6715cbd8b8a5ec60a18c71e775bfd6e6ccc811c5"
+    },
+    "src/Features/MirrorSceneRenderer.cpp": {
+      "bytes": 1496901,
+      "sha256": "0a796a85721a8ecfae62042bac5d2ffd280f8152255d0c8a8bede93c9e09ad35"
+    },
+    "src/Features/MirrorSceneRenderer.h": {
+      "bytes": 9012,
+      "sha256": "c9d79476b9151a14de221baf11f692577b4c57198d78e7247419d88e8f98e61a"
+    },
+    "src/Features/MirrorSceneUpdateGate.h": {
+      "bytes": 1096,
+      "sha256": "1753d217e09e3fe8145ee3a36316da4085d1fe3719dec5fd2c6872ab9674bb16"
+    },
+    "src/Features/MirrorSelection.h": {
+      "bytes": 643,
+      "sha256": "9b6eb185a5cc658276c98127c4080c75498d210711d4b406c5ec962134ac7d90"
+    },
+    "src/Features/MirrorSettings.cpp": {
+      "bytes": 18487,
+      "sha256": "5ada21b8f70b7bb209a5f5942c36649bdbec33f8f3ce39aceba83a536492dda8"
+    },
+    "src/Features/MirrorSettings.h": {
+      "bytes": 2051,
+      "sha256": "b60fe9f582b6955f644847391a1d37c5748b210c50b2b6b5700f072859574f14"
+    },
+    "src/Features/MirrorSettingsFile.h": {
+      "bytes": 8942,
+      "sha256": "98f271e61eba253a702590f3c594788f54657f2f5181a3d31648ee78f99e8bf5"
+    },
+    "src/Features/MirrorSettingsMenu.h": {
+      "bytes": 4932,
+      "sha256": "a3882bf8f91f0cf342181b4e4e72a725311694eda69b8a85382730c8e0dc160b"
+    },
+    "src/Features/MirrorSettingsPolicy.h": {
+      "bytes": 2374,
+      "sha256": "1ea30d70caa202bc325684c531d5728fad0916fb88a29eb9a1e9614c5349925c"
+    },
+    "src/Features/MirrorShadowBatchPlanner.h": {
+      "bytes": 4163,
+      "sha256": "23d0fd8b8fe6fc684f62ccd8aa887dbc4fced32356eab5b2d5854fe074ab8839"
+    },
+    "src/Features/MirrorShadowCasterBatch.h": {
+      "bytes": 2847,
+      "sha256": "6803075b5a3f359658793c3850af02c2680a16f23d7074cb9a97f723b26efe32"
+    },
+    "src/Features/MirrorShadowCasterVolume.h": {
+      "bytes": 6534,
+      "sha256": "40167bdcc9ffd74e0bc9592735ebf0189f34245f632b85e13a5d98b90ed7fb0b"
+    },
+    "src/Features/MirrorShadowGroupPolicy.h": {
+      "bytes": 248,
+      "sha256": "6e0807e4a7d244e2000ae3958d1c44f4e6f853d18d24449470ec5e2e470fb47a"
+    },
+    "src/Features/MirrorShadowMaps.h": {
+      "bytes": 4064,
+      "sha256": "244fae9fecef2f70be037a57bfe3e09a6e3b9ee54bab20b188d289d2bf9c9f17"
+    },
+    "src/Features/MirrorSkinPalette.h": {
+      "bytes": 590,
+      "sha256": "657693ea57ad7ef5d69d50c4e18268ede627bb27bfde3c8123da0b98412a6acf"
+    },
+    "src/Features/MirrorSkyState.h": {
+      "bytes": 4649,
+      "sha256": "edf673a9086535268d2fd856a06b912ddd4f66798f50078d0d89df65401b33c2"
+    },
+    "src/Features/MirrorSubgraphOwnership.h": {
+      "bytes": 6983,
+      "sha256": "1e25219c81416a771262c942a592f39b9be75f0b5ed7453ffc1e684c6f364024"
+    },
+    "src/Features/MirrorSubmittedNodes.h": {
+      "bytes": 2051,
+      "sha256": "06aa7349d1189d82dd521c07bdf39272317160e93f5c8fadc111cde7e5a2d980"
+    },
+    "src/Features/MirrorSunLocation.h": {
+      "bytes": 702,
+      "sha256": "1b93fd5af4c70095fbe303ff4fef96179ee028e24833116d00c87fe3cdc12d1f"
+    },
+    "src/Features/MirrorTextureRouting.cpp": {
+      "bytes": 2330,
+      "sha256": "d54c62588c796dc0a07b75c82369fa3588caac917547b85b36c81282ff012655"
+    },
+    "src/Features/MirrorTextureRouting.h": {
+      "bytes": 263,
+      "sha256": "6cb18b1ae39291ab96c6ca2deced408affea455e64b03afe081f342835678c38"
+    },
+    "src/Features/MirrorToggle.h": {
+      "bytes": 1795,
+      "sha256": "60a9ce2a1d73b7227593a65eb5105408e6ffd734c98d3196ab6c8292b4946406"
+    },
+    "src/Features/MirrorVisibility.h": {
+      "bytes": 3736,
+      "sha256": "b7bb85f4a9332d9ee7b8b85be3192d0a508ed568c5871e1ded642cbc415f5166"
+    },
+    "src/Features/MirrorWorkBudget.h": {
+      "bytes": 2608,
+      "sha256": "73dbd58d154723e61d4470a65ef8e620887d922ff69a45d8ea8b42bc07afe266"
+    },
+    "src/Features/MirrorWorkshopMenu.h": {
+      "bytes": 286,
+      "sha256": "6ebfd8e25af8d99a3e9f619ae9a80c3af304b4da70ff183533bdcddaeef8c0d1"
+    },
+    "src/Features/MirrorWorkshopState.h": {
+      "bytes": 836,
+      "sha256": "97c281e46a8b53e545b952860611df6d0527179894126d24349886cf831bfbec"
+    },
+    "src/Features/NativePassPoolRecovery.cpp": {
+      "bytes": 4367,
+      "sha256": "b74c4c5e4ca6edbb714875a075419c8ada2b9ef5aadcdcb583ad5677e8c9c419"
+    },
+    "src/Features/NativePassPoolRecovery.h": {
+      "bytes": 247,
+      "sha256": "20dc939b890386d0abc39032690cbea859e9db9c08eef254a7cc3b972abe64b5"
+    },
+    "src/Features/NiVirtualDispatch.h": {
+      "bytes": 3471,
+      "sha256": "12af46494fb858bbbd8a22d82e6c1caf481138db9613d4fba5e0c3e9b4b28373"
+    },
+    "src/Features/PlanarMirrorLookup.cpp": {
+      "bytes": 24816,
+      "sha256": "1f749aac3d5585546069d39481e00136bafecd94464e63e0b3c9253412f38a93"
+    },
+    "src/Features/PlanarMirrorLookup.h": {
+      "bytes": 1948,
+      "sha256": "cf89609eb8accfc3ecbd124354ddd8ce2fffe1272dfb92c7bc45a610c1e5154a"
+    },
+    "src/Features/PlanarMirrorMath.cpp": {
+      "bytes": 29655,
+      "sha256": "7f65cc3e128b42c1c27437e0d58327d7af50301fc898224784ed60e68b4b158e"
+    },
+    "src/Features/PlanarMirrorMath.h": {
+      "bytes": 4644,
+      "sha256": "7b473588e12e7d7bfb193c2489d0877d3b60dde169d0adf6a5962f0dcb69309a"
+    },
+    "src/Features/PlanarMirrors.cpp": {
+      "bytes": 89313,
+      "sha256": "ab7825c8dd3c4703a0867e98d54fc554100202bd2eb4b7146c9d99b6ec52ef61"
+    },
+    "src/Features/PlanarMirrors.h": {
+      "bytes": 18246,
+      "sha256": "83c7ffd8eab1f49f2906e63620f5af03ee0d1dad676cfd7cd8dcecde69f19578"
+    },
+    "src/Features/PlanarMirrorSilhouetteData.h": {
+      "bytes": 787036,
+      "sha256": "d89c7157eb5d27fde82e2f7314025e87e2edea306afacaa1af6ad0ca0a41bdd7"
+    },
+    "src/Features/ReflectionRuntime.cpp": {
+      "bytes": 14449,
+      "sha256": "b4a815b9e4246d5d5d71fa87688b683d3f4adaa47613a73e0833f102810565b4"
+    },
+    "src/Features/ReflectionRuntime.h": {
+      "bytes": 5180,
+      "sha256": "27ebd26305882d5d8e5c30a923950b01ed2b450d4a43fca50f1d1acc594546c6"
+    },
+    "src/Features/ReflectionRuntimePort240.inl": {
+      "bytes": 377890,
+      "sha256": "a93b3012ef1043978bc753e3ca58e13d2ed3d3bcc4a97e4c65e7c150936a8f45"
+    },
+    "src/Features/ReflectionRuntimePortVR.inl": {
+      "bytes": 3120,
+      "sha256": "e61f66190a12c463f411ad40c627baf209180d563de9a23d675d8d1caa4eb67b"
+    },
+    "src/Features/VRMirrorAvatar.inl": {
+      "bytes": 24737,
+      "sha256": "67bccb8f70c147bb7fcc52f4f22c65f317e7e6ee132ad943a7c9ea0486bb8fe9"
+    },
+    "src/Features/VRMirrorDeferred.h": {
+      "bytes": 5538,
+      "sha256": "516faf4d5d0ba78ab4bd83870a7006a1ff515a6784bf607e82864d8f8b30b1f8"
+    },
+    "src/Features/VRMirrorLighting.h": {
+      "bytes": 5850,
+      "sha256": "3c018e4a3eff4123e633d77bac5baf9a490b44fa36ad13608ca1eef042bd54d9"
+    },
+    "src/Features/VRMirrorPolicy.h": {
+      "bytes": 1677,
+      "sha256": "2c86e4ba36c5c8a8a208d0e6fbb554d53a277ecef3a5107814be682791116146"
+    },
+    "src/Features/VRMirrorPose.h": {
+      "bytes": 3571,
+      "sha256": "e75af00b8938fbdc21e09ef75bd39412e975135502fcf87dc2eefb24fbc0e128"
+    },
+    "src/Features/VRMirrorRenderState.h": {
+      "bytes": 1158,
+      "sha256": "33161fcbd1989e8f57f67b43b54f67bc8c3e275865da236f315633a2edb69145"
+    },
+    "src/Features/VRMirrorScene.h": {
+      "bytes": 5585,
+      "sha256": "8ab7d2e6fb969679bdcaa5119c2120006014534172704de50415053c748d1802"
+    },
+    "src/Features/VRMirrorSkin.h": {
+      "bytes": 1570,
+      "sha256": "e447780dee2e01ef3f1cc2bfae1ef052c35c233b140e40123f366cabf2ccf294"
+    },
+    "src/Features/VRReflectionRenderer.cpp": {
+      "bytes": 107272,
+      "sha256": "ca6a313e805d40114d86681f309343f55ee1ac563c773e0e79fd6fdb37ad7a5c"
+    },
+    "src/Features/VRReflectionRenderer.h": {
+      "bytes": 1073,
+      "sha256": "dee29072c1b67f68b951d90d4d800a455532544071bc1bb3c7552dbca67c2e99"
+    },
+    "src/Globals.cpp": {
+      "bytes": 27319,
+      "sha256": "be9009b5e891140744b8f642d4b26dcedf5daf6168aafb5a8e98f6fe1da3f1eb"
+    },
+    "src/Globals.h": {
+      "bytes": 4757,
+      "sha256": "c0d7dbc53961b15d63708bb6a36c8b37774416f54d707dc41ff3175681ad336e"
+    },
+    "src/Hooks.cpp": {
+      "bytes": 53134,
+      "sha256": "fa300a957f5ff8c29eb928a0a16199f8843f34b992cbd1f8bd87f12d534e4619"
+    },
+    "src/Hooks.h": {
+      "bytes": 870,
+      "sha256": "b78045cc7749a917ed116ede9620e8dc9a5f6bb5bdc163bdd4dd00743b6574ac"
+    },
+    "src/PCH.cpp": {
+      "bytes": 268,
+      "sha256": "73fa196ee89ed7803160780b82f49354eb44b8e04c755abceddc8a9b53a5ef9f"
+    },
+    "src/RenderHooks.cpp": {
+      "bytes": 6099,
+      "sha256": "ea5f40d9ad4fb44b69f545a4044ec858ad97bc18cdb2108b09737179a16904d8"
+    },
+    "src/RenderHooks.h": {
+      "bytes": 512,
+      "sha256": "1ea2f7cb7a5afb65e4c8f3437eb3009831d95931e0cea62848809a1f7939fd5c"
+    },
+    "src/Utils/ActorUtils.cpp": {
+      "bytes": 3051,
+      "sha256": "32f9dd86306f580df15bc8acf929f196c4efaa6fc945c7e710f72bc67e8f857c"
+    },
+    "src/Utils/ActorUtils.h": {
+      "bytes": 1698,
+      "sha256": "50c0030edc02491851e5b602bd190dc5574958a5bbe607d24c92cd4ba64ad512"
+    },
+    "src/Utils/D3D.cpp": {
+      "bytes": 18162,
+      "sha256": "faabba37e90334a70f986f7b953ee5881f8383143084601f1df23f9cb8bd6000"
+    },
+    "src/Utils/D3D.h": {
+      "bytes": 1533,
+      "sha256": "3b30d434a966ada9b637a80c358650fc44b6481471c907f1f4eb2470acd47b41"
+    },
+    "src/Utils/D3DDeviceIdentity.h": {
+      "bytes": 4127,
+      "sha256": "d6ff45acacab96068b431cb6dff0fc1b21a93c54197f07e199a7de7dd208f401"
+    },
+    "src/Utils/FileSystem.cpp": {
+      "bytes": 4116,
+      "sha256": "0fed815657a8a03cd38191ead44e8fed095cf1c3f0e4d56df27806442d8e44bf"
+    },
+    "src/Utils/FileSystem.h": {
+      "bytes": 1703,
+      "sha256": "6bb0a1755c766d872b6bd0dfb9744a8264cb657ca346faccb660ecd0dfed6f5c"
+    },
+    "src/Utils/Form.cpp": {
+      "bytes": 847,
+      "sha256": "6651a9c1b8fda341720e85877eebe3ce6102d86fb74728afc6df2365cdd80240"
+    },
+    "src/Utils/Form.h": {
+      "bytes": 189,
+      "sha256": "a3f0b7f9a563c5bef76a1028619a9513e4f3b5e02a6ac376aea90ef7618d4b51"
+    },
+    "src/Utils/Format.cpp": {
+      "bytes": 6308,
+      "sha256": "3c6522ed182e4f48752061f6316283d128cd589b02a2922cb552ab55cc68b8b0"
+    },
+    "src/Utils/Format.h": {
+      "bytes": 1137,
+      "sha256": "ae6a2c0bb34629c3d5587e36d9b90ff9a3af029a5942f4306810e9021b7a01fa"
+    },
+    "src/Utils/Game.cpp": {
+      "bytes": 326,
+      "sha256": "c9a6d763f56676200f83789053750af3c9e5fbc9153cdc864a6bb1ccc70f876e"
+    },
+    "src/Utils/Game.h": {
+      "bytes": 169,
+      "sha256": "5c920dd277eab5c47900d84195789b4126e6358ea7235f0cc9573ec8fac825cf"
+    },
+    "src/Utils/MirrorShaderBytecode.h": {
+      "bytes": 5872,
+      "sha256": "9e4d7c640e8f3fff6f6b08fb75e99df0c568add381edad490aeaec6debb9665f"
+    },
+    "src/Utils/WinApi.cpp": {
+      "bytes": 855,
+      "sha256": "367f1b39631982e4e5eb9e2d1fece75b976e5cd6f6c5c3de7fb2109ab63c89c6"
+    },
+    "src/Utils/WinApi.h": {
+      "bytes": 114,
+      "sha256": "af31253011128fa76cbe6adc5c9a89a361ca6acbf9f84c4b29f725b05a9602c6"
+    },
+    "src/XSEPlugin.cpp": {
+      "bytes": 8808,
+      "sha256": "1ea06f9c058f1061cd316340a261ff08b64a8a48a80f8ed4aa86827508372ccc"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 3333,
+      "sha256": "e3a406063ba0a4bd600be55738139087e8db23317753f3bbb13a8d8cd836c975"
+    },
+    "tools/authoring/build_assets.py": {
+      "bytes": 4280,
+      "sha256": "e0b88a848d699cc5f4ced46c8fff94a47206e66d38ae89330455b44372acad88"
+    },
+    "tools/authoring/ValidateAuthoring.pas": {
+      "bytes": 3858,
+      "sha256": "e3eef02280bcac2f6307682bd6f30a916039506ce066f88b4ecd3bebd5c1fc33"
+    },
+    "tools/ck/Archive.cpp": {
+      "bytes": 5725,
+      "sha256": "904a7b818c186b3cb23f7f8bfaf1e6d52ff0d81b96fb454f8b85f4ac0a279693"
+    },
+    "tools/ck/Assets.h": {
+      "bytes": 1367,
+      "sha256": "1e93b3928011ffbd0293881d85b2f7048ad92fae25186535aea891c153b0e2c2"
+    },
+    "tools/ck/CMakeLists.txt": {
+      "bytes": 1958,
+      "sha256": "20f49f4e26a4a3c0a895da866ad4c4124f68e4491336b73c3940614ef088cbb9"
+    },
+    "tools/ck/Launcher.cpp": {
+      "bytes": 5401,
+      "sha256": "6b1151c9ae4d1cc3aa654be09bf9abc151811b9a0b7449a88f52a63269c31256"
+    },
+    "tools/ck/MirrorCK.cpp": {
+      "bytes": 17938,
+      "sha256": "f23b8ea2df285b6594c5a509ea0b7865ea96be7e35fad938c9b50708d3fa935d"
+    },
+    "tools/ck/Native.h": {
+      "bytes": 3050,
+      "sha256": "502ec3126115c31c3a4489e531ad7508cddf90d13117eb9c1b5a92aac5656220"
+    },
+    "tools/ck/Nif.cpp": {
+      "bytes": 11662,
+      "sha256": "ea5b89198cac55e9bd8f43f5dcfda63a6281a0971eb1292bfec225b853c80fd2"
+    },
+    "tools/ck/Picker.cpp": {
+      "bytes": 4825,
+      "sha256": "8caf3d8c7af260b113971cbb8a3f94d37565a34051cefac4b3bfcc1836ff6453"
+    },
+    "tools/ck/Picker.h": {
+      "bytes": 124,
+      "sha256": "b7772cc5d95c4e68312399dd2c1bbf36baf96d267aadac9406acead459b68ece"
+    },
+    "tools/ck/tests/AssetTests.cpp": {
+      "bytes": 4844,
+      "sha256": "167f2e74ee8138d266173faa89fd625bd4ee8d011d1e9732be78d374bb675098"
+    },
+    "tools/ck/tests/fixtures/CurvedReject.nif": {
+      "bytes": 1071,
+      "sha256": "7ff2bcc3e952517ea623fbbe50ff6fa1178b72aeb006f6cbd7ea10a98388063f"
+    },
+    "tools/ck/tests/fixtures/Flat.nif": {
+      "bytes": 1063,
+      "sha256": "48111789ab2c4834a88f486ef9ba4304fd82844082c9cba3da6f444f13e801d8"
+    },
+    "tools/ck/tests/fixtures/Hole.nif": {
+      "bytes": 1179,
+      "sha256": "75a8473e145b150c7784075d6bd1a7bd6450493f82cd81fc5f0d46778f984090"
+    },
+    "tools/ck/tests/make_fixtures.py": {
+      "bytes": 6816,
+      "sha256": "0eec21aff2dbeae590b66442917594d8298c2259c79c02316cf6f358a16b174a"
+    },
+    "tools/ck/tests/ValidateCKHelper.pas": {
+      "bytes": 3625,
+      "sha256": "82c41e1397d21064f221c81297058ac877ab397bfa4f3553d5844779724b1180"
+    },
+    "tools/ck/Win32.h": {
+      "bytes": 3187,
+      "sha256": "de147faf21548f79f83b5580e8c9bd188a9627d478da0b6324b4f1d62c116465"
+    },
+    "tools/MirrorShaderPrecompile.cpp": {
+      "bytes": 2242,
+      "sha256": "f70d2cf8f7aabfa27501f1feb5fc1fe7eb39fd0586f2044aa4d98f1e695b7a8e"
+    },
+    "tools/workshop/add_connect_point.py": {
+      "bytes": 4868,
+      "sha256": "989bb194ba82706cb219243e17958e6332784679a2989b6295e765207c9e3f73"
+    },
+    "tools/workshop/build_assets.py": {
+      "bytes": 23201,
+      "sha256": "2f8d6b4d3a54ac926dfdc2c568f97126a15712b82acda09d95a4005b5c577e30"
+    },
+    "tools/workshop/build_plugin.py": {
+      "bytes": 7427,
+      "sha256": "1d2008dbb8f006fd0c1e56fc7b087942c84439160c8720a4407e4169cddf5fd5"
+    },
+    "tools/workshop/build_vr_mirror_material.py": {
+      "bytes": 2113,
+      "sha256": "c00485eb10be19f96f3c00d4f63d9021fbc3473ec5bc1722e456959f94cd0c69"
+    },
+    "tools/workshop/catalogue.json": {
+      "bytes": 27992,
+      "sha256": "9384b39bb6e7220c3e642744041b561c86a35a31a37e0ef4bf59dad4b1799e3a"
+    },
+    "tools/workshop/ConvertWorkshopNifs.pas": {
+      "bytes": 1451,
+      "sha256": "fb902f424a217ad87e5b44f85aa7426f2c455353fe4577bab748795d7e3fa1ac"
+    },
+    "tools/workshop/validate_assets.py": {
+      "bytes": 6842,
+      "sha256": "9149e43c171dd059c2e29bbda0fb6b221d30a9e8b9ad11a56ef442d400e26a71"
+    },
+    "tools/workshop/ValidateWorkshopPlugin.pas": {
+      "bytes": 2109,
+      "sha256": "16a8bd8a0f3bfddcf75416d8b940c01908623e7dd98639cf27ae5c729bc8778e"
+    },
+    "vcpkg.json": {
+      "bytes": 1102,
+      "sha256": "dd8b72b2e5634f86864caad31a2395739631ea361d20851cbc06904f3a6ef3ef"
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "modName": "MirrorsOfFallout",
+  "displayName": "Realistic Reflections - Mirrors",
+  "minMcmVersion": 1,
+  "content": [
+    {
+      "text": "Placed Mirrors",
+      "type": "section"
+    },
+    {
+      "id": "iQualityMode:Mirrors",
+      "action": {
+        "type": "CallExternalFunction",
+        "plugin": "MirrorQualityControls",
+        "function": "SelectQualityMode",
+        "params": ["{value}"]
+      },
+      "type": "stepper",
+      "text": "Quality mode",
+      "help": "Automatic adjusts quality to performance, Preset offers three quality levels, and Manual lets you choose individual settings.",
+      "valueOptions": {
+        "sourceType": "ModSettingInt",
+        "options": [
+          "Automatic",
+          "Preset",
+          "Manual"
+        ]
+      }
+    },
+    {
+      "id": "iAutomaticTargetFPS:Mirrors",
+      "groupCondition": {
+        "sourceSettingName": "iQualityMode:Mirrors",
+        "sourceType": "ModSettingInt",
+        "operator": "==",
+        "compareValue": 0
+      },
+      "type": "slider",
+      "text": "Target game FPS",
+      "help": "Automatic lowers reflection quality below this frame-rate target and restores it gradually when performance improves.",
+      "valueOptions": {
+        "sourceType": "ModSettingInt",
+        "min": 30,
+        "max": 144,
+        "step": 1
+      }
+    },
+    {
+      "id": "iQualityLevel:Mirrors",
+      "groupCondition": {
+        "sourceSettingName": "iQualityMode:Mirrors",
+        "sourceType": "ModSettingInt",
+        "operator": "==",
+        "compareValue": 1
+      },
+      "type": "stepper",
+      "text": "Quality preset",
+      "help": "Preset for resolution, refresh rate, shadows and both distances.",
+      "valueOptions": {
+        "sourceType": "ModSettingInt",
+        "options": [
+          "Low",
+          "Medium",
+          "High"
+        ]
+      }
+    },
+    {
+      "id": "iOutdoorDistance:Mirrors",
+      "groupCondition": {
+        "sourceSettingName": "iQualityMode:Mirrors",
+        "sourceType": "ModSettingInt",
+        "operator": "==",
+        "compareValue": 2
+      },
+      "type": "slider",
+      "text": "Object distance",
+      "help": "How far from each mirror objects are drawn into the reflection, in game units.",
+      "valueOptions": {
+        "sourceType": "ModSettingInt",
+        "min": 500,
+        "max": 5000,
+        "step": 250
+      }
+    },
+    {
+      "id": "iShadowDistance:Mirrors",
+      "groupCondition": {
+        "sourceSettingName": "iQualityMode:Mirrors",
+        "sourceType": "ModSettingInt",
+        "operator": "==",
+        "compareValue": 2
+      },
+      "type": "slider",
+      "text": "Shadow distance",
+      "help": "How far from each mirror shadows are cast, in game units.",
+      "valueOptions": {
+        "sourceType": "ModSettingInt",
+        "min": 500,
+        "max": 5000,
+        "step": 250
+      }
+    },
+    {
+      "id": "bShadows:Mirrors",
+      "groupCondition": {
+        "sourceSettingName": "iQualityMode:Mirrors",
+        "sourceType": "ModSettingInt",
+        "operator": "==",
+        "compareValue": 2
+      },
+      "type": "switcher",
+      "text": "Shadows",
+      "help": "Enable or disable all sunlight and local-light shadows in the reflection, including shadows cast by and onto the player.",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      }
+    },
+    {
+      "id": "iShadowResolution:Mirrors",
+      "groupCondition": {
+        "sourceSettingName": "iQualityMode:Mirrors",
+        "sourceType": "ModSettingInt",
+        "operator": "==",
+        "compareValue": 2
+      },
+      "type": "slider",
+      "text": "Shadow map resolution",
+      "help": "Resolution of both reflected sunlight shadow maps; higher values give sharper shadows at greater GPU cost, while local-light maps use the game's resolution.",
+      "valueOptions": {
+        "sourceType": "ModSettingInt",
+        "min": 512,
+        "max": 4096,
+        "step": 512
+      }
+    },
+    {
+      "id": "iResolution:Mirrors",
+      "groupCondition": {
+        "sourceSettingName": "iQualityMode:Mirrors",
+        "sourceType": "ModSettingInt",
+        "operator": "==",
+        "compareValue": 2
+      },
+      "type": "stepper",
+      "text": "Resolution",
+      "help": "Reflection resolution, where higher is sharper and costs more GPU time.",
+      "valueOptions": {
+        "sourceType": "ModSettingInt",
+        "options": [
+          "Default",
+          "512",
+          "1024",
+          "2048",
+          "4096"
+        ]
+      }
+    },
+    {
+      "id": "bEveryFrameRefresh:Mirrors",
+      "groupCondition": {
+        "sourceSettingName": "iQualityMode:Mirrors",
+        "sourceType": "ModSettingInt",
+        "operator": "==",
+        "compareValue": 2
+      },
+      "type": "switcher",
+      "text": "Update every frame",
+      "help": "Refresh reflections every game frame instead of at the rate below.",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      }
+    },
+    {
+      "id": "iRefreshRate:Mirrors",
+      "groupCondition": {
+        "sourceSettingName": "iQualityMode:Mirrors",
+        "sourceType": "ModSettingInt",
+        "operator": "==",
+        "compareValue": 2
+      },
+      "type": "slider",
+      "text": "Refresh rate",
+      "help": "Target updates per mirror per second, limited by the available frame time.",
+      "valueOptions": {
+        "sourceType": "ModSettingInt",
+        "min": 5,
+        "max": 180,
+        "step": 1
+      }
+    },
+    {
+      "text": "Debug",
+      "type": "section"
+    },
+    {
+      "id": "bDebugKeys:Mirrors",
+      "type": "switcher",
+      "text": "Debug keys",
+      "help": "Use F7 to switch the optimisations off and on, F8 to run the benchmark, F11 for the performance overlay and F12 to switch reflections off and on.",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      }
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "text",
+      "text": "Changes are saved and apply when you close the menu without restarting the game."
+    }
+  ]
+}

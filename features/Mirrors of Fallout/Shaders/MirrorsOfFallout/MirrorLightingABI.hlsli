@@ -1,0 +1,9 @@
+#ifndef MIRROR_LIGHTING_ABI_INCLUDED
+#define MIRROR_LIGHTING_ABI_INCLUDED
+// Included by both C++ uploads and installed HLSL consumers.
+#define MIRROR_LIGHTING_ABI 7
+#define MIRROR_SHADOW_ABI 5
+#define MIRROR_MAX_LIGHTS 256
+#define MIRROR_TILE_SIZE 32
+#define MIRROR_TILE_WORDS (MIRROR_MAX_LIGHTS / 32)
+#endif

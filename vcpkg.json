@@ -1,0 +1,48 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+    "name": "realistic-reflections-mirrors",
+    "license": "GPL-3.0-only",
+    "dependencies": [
+        "cppwinrt",
+        "detours",
+        "directxtex",
+        "directxtk",
+        "eastl",
+        "fmt",
+        {
+            "name": "imgui",
+            "features": [
+                "dx11-binding",
+                "win32-binding",
+                "docking-experimental"
+            ]
+        },
+        "magic-enum",
+        "nlohmann-json",
+        "rapidcsv",
+        "rsm-mmio",
+        "spdlog",
+        "stb",
+        "unordered-dense",
+        "xbyak"
+    ],
+    "overrides": [
+        {
+            "name": "eabase",
+            "version": "2025-08-01"
+        },
+        {
+            "name": "eastl",
+            "version": "3.27.1"
+        },
+        {
+            "name": "fmt",
+            "version": "10.2.1"
+        },
+        {
+            "name": "imgui",
+            "version": "1.90"
+        }
+    ],
+    "builtin-baseline": "7a6bb52bfd8eba088f8bf5cae70ca8d81503e42e"
+}

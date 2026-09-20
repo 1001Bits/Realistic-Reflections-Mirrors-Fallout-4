@@ -1,0 +1,525 @@
+[
+  {
+    "name": "cppwinrt",
+    "version": "2.0.250303.1",
+    "license": "MIT",
+    "homepage": "https://github.com/microsoft/cppwinrt",
+    "notice": "licenses/cppwinrt.txt",
+    "sources": [
+      {
+        "name": "cppwinrt",
+        "download": "git+https://github.com/Microsoft/vcpkg@2b7e34cd0c66a4a4645fd872a27972448f69e134",
+        "checksums": []
+      },
+      {
+        "name": "cppwinrt.2.0.250303.1.zip",
+        "download": "https://www.nuget.org/api/v2/package/Microsoft.Windows.CppWinRT/2.0.250303.1",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "adf9ec7059a58b3e0eb0057de52900692f58305aee8ba708d265d273a81127978beb9bf2599b00855b61b725d4e6eb06206b66897eaeaef1aec83948d60bc293"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "detours",
+    "version": "4.0.1#8",
+    "license": "MIT",
+    "homepage": "https://github.com/microsoft/Detours",
+    "notice": "licenses/detours.txt",
+    "sources": [
+      {
+        "name": "detours",
+        "download": "git+https://github.com/Microsoft/vcpkg@42c4e92ed3e8e461427f2f3e971c0f936c34b285",
+        "checksums": []
+      },
+      {
+        "name": "microsoft/Detours",
+        "download": "git+https://github.com/microsoft/Detours@v4.0.1",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "0a9c21b8222329add2de190d2e94d99195dfa55de5a914b75d380ffe0fb787b12e016d0723ca821001af0168fd1643ffd2455298bf3de5fdc155b3393a3ccc87"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "directxmath",
+    "version": "2025-04-03",
+    "license": "MIT",
+    "homepage": "https://github.com/Microsoft/DirectXMath",
+    "notice": "licenses/directxmath.txt",
+    "sources": [
+      {
+        "name": "directxmath",
+        "download": "git+https://github.com/Microsoft/vcpkg@b199edaeaf0b2b92a634dfeb1289879ea5eeae7f",
+        "checksums": []
+      },
+      {
+        "name": "Microsoft/DirectXMath",
+        "download": "git+https://github.com/Microsoft/DirectXMath@apr2025",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "c7d3b107180b269c5c4e823fa51d96a316dc35cace3cb13f030022d9096c9465e8a770559419176692b047574fd67c96d8527abd8817998264a149eee0b88c9d"
+          }
+        ]
+      },
+      {
+        "name": "sal.h",
+        "download": "https://raw.githubusercontent.com/dotnet/runtime/v9.0.2/src/coreclr/pal/inc/rt/sal.h",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "8085f67bfa4ce01ae89461cadf72454a9552fde3f08b2dcc3de36b9830e29ce7a6192800f8a5cb2a66af9637be0017e85719826a4cfdade508ae97f319e0ee8e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "directxtex",
+    "version": "2025-10-27",
+    "license": "MIT",
+    "homepage": "https://github.com/Microsoft/DirectXTex",
+    "notice": "licenses/directxtex.txt",
+    "sources": [
+      {
+        "name": "Microsoft/DirectXTex",
+        "download": "git+https://github.com/Microsoft/DirectXTex@${DIRECTXTEX_TAG}",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "8adca6e50dc5da91d2be0c9a644a3372f0c134ec80d71260d72dca79b2422d5eccae844b1b5d0eb4f335548730eb3b1faad4ba7e228f865c7688b60915e70efc"
+          }
+        ]
+      },
+      {
+        "name": "texassemble-${DIRECTXTEX_TAG}.exe",
+        "download": "https://github.com/Microsoft/DirectXTex/releases/download/${DIRECTXTEX_TAG}/texassemble.exe",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "d1e8f2959e9a53367a03ded17c49e8720dd8f62cfcde13feeff39ba9b68a5352488ac743c6208f4820b0a94605a8bdce7f2949705d0aba06fb298f93813c2e72"
+          }
+        ]
+      },
+      {
+        "name": "texconv-${DIRECTXTEX_TAG}.exe",
+        "download": "https://github.com/Microsoft/DirectXTex/releases/download/${DIRECTXTEX_TAG}/texconv.exe",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "de5d4d237a17cac3a3c5c932dcca316e887f7d141353000b343ed7c48f1065bfd232c2f3e748f749b2b4bb1ccb7f731893e28b1227d6bf37ca1ef68c41b1bd00"
+          }
+        ]
+      },
+      {
+        "name": "texdiag-${DIRECTXTEX_TAG}.exe",
+        "download": "https://github.com/Microsoft/DirectXTex/releases/download/${DIRECTXTEX_TAG}/texdiag.exe",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "960aeb72e82d4c5fc6388e47ef220062a5e279574338798a32a7b4a3b0bc3bf362272ccd6f8ed6a7fb9674e9ee52f6e2faa022236e6e28dd852445c7b742fecf"
+          }
+        ]
+      },
+      {
+        "name": "texassemble-${DIRECTXTEX_TAG}-arm64.exe",
+        "download": "https://github.com/Microsoft/DirectXTex/releases/download/${DIRECTXTEX_TAG}/texassemble_arm64.exe",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "9724d9c0b27d4e7b438da99cf304324a94c232d410e18f26ba4dbd3e38495e11b4d03fd63c09c642107afa8529ebb366341e47da0f50fa55b1ec76927adce0ed"
+          }
+        ]
+      },
+      {
+        "name": "texconv-${DIRECTXTEX_TAG}-arm64.exe",
+        "download": "https://github.com/Microsoft/DirectXTex/releases/download/${DIRECTXTEX_TAG}/texconv_arm64.exe",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "d4701b93bae60abb4ad364cde1ce3462c3c39298b1929f0fad188ccc2363b8d25d2f84fb67c259def32dfa2921bc92afae60480ea89c9602e318b91b5c6f3c93"
+          }
+        ]
+      },
+      {
+        "name": "texdiag-${DIRECTXTEX_TAG}-arm64.exe",
+        "download": "https://github.com/Microsoft/DirectXTex/releases/download/${DIRECTXTEX_TAG}/texdiag_arm64.exe",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "49134ba643f482b42fe3dd06cbf0b59c899f2d76094f9bea10096aecd70d2641ea06aa94513a7807ffb2ce14126f15bcbcbca98d19d0934e2f5f56ce1ee1197b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "directxtk",
+    "version": "2025-10-27",
+    "license": "MIT",
+    "homepage": "https://github.com/Microsoft/DirectXTK",
+    "notice": "licenses/directxtk.txt",
+    "sources": [
+      {
+        "name": "directxtk",
+        "download": "git+https://github.com/Microsoft/vcpkg@75f06c1ce10a74ca4f85fee00f4c998ce963c3ea",
+        "checksums": []
+      },
+      {
+        "name": "Microsoft/DirectXTK",
+        "download": "git+https://github.com/Microsoft/DirectXTK@${DIRECTXTK_TAG}",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "3be2fce3c3a34a22b7bdfda914ca45930c5b979bb467530b8cbb510c0f58485056c285ff86ddaecbc5aac95ae67f0b92c4e1dd8261cee4a87cf3e7056329ac28"
+          }
+        ]
+      },
+      {
+        "name": "makespritefont-${DIRECTXTK_TAG}.exe",
+        "download": "https://github.com/Microsoft/DirectXTK/releases/download/${DIRECTXTK_TAG}/MakeSpriteFont.exe",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "edec18a1c7790d6f27f8d910307a38a037784cc974b38debb8ef6eb77369941b60bf7cb52de4150f80bca4ab541d76d54f21ef91524b83b11b684f0a92e1c879"
+          }
+        ]
+      },
+      {
+        "name": "xwbtool-${DIRECTXTK_TAG}.exe",
+        "download": "https://github.com/Microsoft/DirectXTK/releases/download/${DIRECTXTK_TAG}/XWBTool.exe",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "68ff3f4a99585e08698c6385550628341e31218315029700c9b8d9a17118ba964856358bc2bebc951b6ec8d1584e8d62138505780897430509dca2652832384b"
+          }
+        ]
+      },
+      {
+        "name": "xwbtool-${DIRECTXTK_TAG}-arm64.exe",
+        "download": "https://github.com/Microsoft/DirectXTK/releases/download/${DIRECTXTK_TAG}/XWBTool_arm64.exe",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "8e9d0fdd206bff4e3c0b344ed754a16cee913833be205c822d41ed3264d3578ae168ef415043ff8f95b38890c37457a56ee7677b26d95b8afd60dd307bffb9e0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "eabase",
+    "version": "2025-08-01",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/electronicarts/EABase",
+    "notice": "licenses/eabase.txt",
+    "sources": [
+      {
+        "name": "eabase",
+        "download": "git+https://github.com/Microsoft/vcpkg@1efd9d29b604be799cd16293cad542689c44a6fb",
+        "checksums": []
+      },
+      {
+        "name": "electronicarts/EABase",
+        "download": "git+https://github.com/electronicarts/EABase@0699a15efdfd20b6cecf02153bfa5663decb653c",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "6852fcef08002c503d7ca23a22ef25d4b3136787c505d9b7ad55e821a6369d1dcc1773ff8042d7a9c306a52f33dd8da35b2f3fdbd8ea0ff1ca0f765fbe7ac240"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "eastl",
+    "version": "3.27.1",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/electronicarts/EASTL",
+    "notice": "licenses/eastl.txt",
+    "sources": [
+      {
+        "name": "eastl",
+        "download": "git+https://github.com/Microsoft/vcpkg@b7286404f816e9615ccb0b595180bda6b0111fa3",
+        "checksums": []
+      },
+      {
+        "name": "electronicarts/EASTL",
+        "download": "git+https://github.com/electronicarts/EASTL@${EASTL_REF}",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "08ac403fceb032cc8622e3f15eef0b00246b8abb2daceb8fabd66d23408c738e82126a4b5187201ec7f6606df46cca1fcda1ec646cfe18ec8e9e081a057101e3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fmt",
+    "version": "10.2.1",
+    "license": "MIT",
+    "homepage": "https://github.com/fmtlib/fmt",
+    "notice": "licenses/fmt.txt",
+    "sources": [
+      {
+        "name": "fmt",
+        "download": "git+https://github.com/Microsoft/vcpkg@405156a2b01c91258bf66768ceb3ae75c1caba7f",
+        "checksums": []
+      },
+      {
+        "name": "fmtlib/fmt",
+        "download": "git+https://github.com/fmtlib/fmt@10.2.1",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "27df90c681ec37e55625062a79e3b83589b6d7e94eff37a3b412bb8c1473f757a8adb727603acc9185c3490628269216843b7d7bd5a3cb37f0029da5d1495ffa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "imgui",
+    "version": "1.90",
+    "license": "MIT",
+    "homepage": "https://github.com/ocornut/imgui",
+    "notice": "licenses/imgui.txt",
+    "sources": [
+      {
+        "name": "imgui",
+        "download": "git+https://github.com/Microsoft/vcpkg@f570e820b63f5f087134076b2343e390eb62daad",
+        "checksums": []
+      },
+      {
+        "name": "ocornut/imgui",
+        "download": "git+https://github.com/ocornut/imgui@v1.90-docking",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "50953097ff809bca0e1cee55268eaa8dad001cf8fae85ae7623f484752d16bdf8e63c04227786361f27e73f7aeda5a8d1f9b0cee83c2aca108ce2712a21b74d9"
+          }
+        ]
+      },
+      {
+        "name": "ocornut/imgui",
+        "download": "git+https://github.com/ocornut/imgui@v1.90",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "f6b33027c7050acc617c728b04b04572a13bf11589d4d2cab566901e94d349a3d91f133f7980049857ee44768d4bad426c9b2e53baf953f2efbf1a7951c3ba8a"
+          }
+        ]
+      },
+      {
+        "name": "imgui_fonts_droid_sans.h",
+        "download": "https://raw.githubusercontent.com/libigl/libigl-imgui/c3efb9b62780f55f9bba34561f79a3087e057fc0/imgui_fonts_droid_sans.h",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "abe9250c9a5989e0a3f2285bbcc83696ff8e38c1f5657c358e6fe616ff792d3c6e5ff2fa23c2eeae7d7b307392e0dc798a95d14f6d10f8e9bfbd7768d36d8b31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "magic-enum",
+    "version": "0.9.7#1",
+    "license": "MIT",
+    "homepage": "https://github.com/Neargye/magic_enum",
+    "notice": "licenses/magic-enum.txt",
+    "sources": [
+      {
+        "name": "magic-enum",
+        "download": "git+https://github.com/Microsoft/vcpkg@9ab95f56c0327e8b6c0190fae3d975439161ffaa",
+        "checksums": []
+      },
+      {
+        "name": "Neargye/magic_enum",
+        "download": "git+https://github.com/Neargye/magic_enum@v0.9.7",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "8b61c621ff2a6981b4ff89f7df577091ffc9382d443c061db612fb61822dbf6ef8aba69ea35d1c435dcffbd7434cb4ccc5d12bbe2deba1cf0a5316c979ee6a4b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "nlohmann-json",
+    "version": "3.12.0#1",
+    "license": "MIT",
+    "homepage": "https://github.com/nlohmann/json",
+    "notice": "licenses/nlohmann-json.txt",
+    "sources": [
+      {
+        "name": "nlohmann-json",
+        "download": "git+https://github.com/Microsoft/vcpkg@f89a58e6478ca1e39120e93e7ed535c4aaf8198c",
+        "checksums": []
+      },
+      {
+        "name": "nlohmann/json",
+        "download": "git+https://github.com/nlohmann/json@v3.12.0",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "6cc1e86261f8fac21cc17a33da3b6b3c3cd5c116755651642af3c9e99bb3538fd42c1bd50397a77c8fb6821bc62d90e6b91bcdde77a78f58f2416c62fc53b97d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rapidcsv",
+    "version": "8.90",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/d99kris/rapidcsv/",
+    "notice": "licenses/rapidcsv.txt",
+    "sources": [
+      {
+        "name": "rapidcsv",
+        "download": "git+https://github.com/Microsoft/vcpkg@5df7f5dbd4d9600f3d6718e641e5fd4accb17f70",
+        "checksums": []
+      },
+      {
+        "name": "d99kris/rapidcsv",
+        "download": "git+https://github.com/d99kris/rapidcsv@v8.90",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "bff69f7e15c96761a2553afa5bcab3375540f78aed7687a0357312769cd63f8c47187768a87f8a910c867f4fa3f99d19fcc48a2631b0b62a543b4627e1540458"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rsm-mmio",
+    "version": "2.0.0",
+    "license": "MIT",
+    "homepage": "https://github.com/Ryan-rsm-McKenzie/mmio",
+    "notice": "licenses/rsm-mmio.txt",
+    "sources": [
+      {
+        "name": "rsm-mmio",
+        "download": "git+https://github.com/Microsoft/vcpkg@9e1a7d844e1e48dab00aab46943a739a4fe2f3e4",
+        "checksums": []
+      },
+      {
+        "name": "Ryan-rsm-McKenzie/mmio",
+        "download": "git+https://github.com/Ryan-rsm-McKenzie/mmio@2.0.0",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "a1b0d586c12708233c0379b16a9f60bab27f12cb414736ee245e37888622ac352e834a58808127087788f930311125e2b26e6dad156c72e68143f95910cda48f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "spdlog",
+    "version": "1.17.0",
+    "license": "MIT",
+    "homepage": "https://github.com/gabime/spdlog",
+    "notice": "licenses/spdlog.txt",
+    "sources": [
+      {
+        "name": "spdlog",
+        "download": "git+https://github.com/Microsoft/vcpkg@7971db787034aef4204ace90e0f94fdbab808f75",
+        "checksums": []
+      },
+      {
+        "name": "gabime/spdlog",
+        "download": "git+https://github.com/gabime/spdlog@v1.17.0",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "8df117055d19ff21c9c9951881c7bdf27cc0866ea3a4aa0614b2c3939cedceab94ac9abaa63dc4312b51562b27d708cb2f014c68c603fd1c1051d3ed5c1c3087"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "stb",
+    "version": "2024-07-29#1",
+    "license": "(MIT OR CC-PDDC)",
+    "homepage": "https://github.com/nothings/stb",
+    "notice": "licenses/stb.txt",
+    "sources": [
+      {
+        "name": "stb",
+        "download": "git+https://github.com/Microsoft/vcpkg@c362152d1d02973e7b1ce777960f8a6876656560",
+        "checksums": []
+      },
+      {
+        "name": "nothings/stb",
+        "download": "git+https://github.com/nothings/stb@f75e8d1cad7d90d72ef7a4661f1b994ef78b4e31",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "4a733aefb816a366c999663e3d482144616721b26c321ee5dd0dce611a34050b6aef97d46bd2c4f8a9631d83b097491a7ce88607fd9493d880aaa94567a68cce"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "unordered-dense",
+    "version": "4.8.1",
+    "license": "MIT",
+    "homepage": "https://github.com/martinus/unordered_dense",
+    "notice": "licenses/unordered-dense.txt",
+    "sources": [
+      {
+        "name": "unordered-dense",
+        "download": "git+https://github.com/Microsoft/vcpkg@c31d77b4f7438088ecd08c499ac84913d598b390",
+        "checksums": []
+      },
+      {
+        "name": "martinus/unordered_dense",
+        "download": "git+https://github.com/martinus/unordered_dense@v4.8.1",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "b98b5d4d96f8e0081b184d6c4c1181fae4e41723b54bed4296717d7f417348b48fad0bbcc664cac142b8c8a47e95aa57c1eb1cf6caa855fd782fad3e3ab99e5e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "xbyak",
+    "version": "7.28",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/herumi/xbyak",
+    "notice": "licenses/xbyak.txt",
+    "sources": [
+      {
+        "name": "xbyak",
+        "download": "git+https://github.com/Microsoft/vcpkg@fe843e85888a7fa80dddd77627ee4f0572fbd9b4",
+        "checksums": []
+      },
+      {
+        "name": "herumi/xbyak",
+        "download": "git+https://github.com/herumi/xbyak@v${VERSION_STR}",
+        "checksums": [
+          {
+            "algorithm": "SHA512",
+            "checksumValue": "443c5c0f14182e46b07af18ee5bd631a0557c37c6b92f6b19a3100dcc8f7b8baa100b7f142fc182cb8d74537bd69459f1065b39078a8a8d02f247133c9c46be4"
+          }
+        ]
+      }
+    ]
+  }
+]

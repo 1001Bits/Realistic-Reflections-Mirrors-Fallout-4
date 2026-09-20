@@ -1,0 +1,35 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 21,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "ALL",
+            "displayName": "Universal (Fallout 4 1.10.163 / 1.11.240 / VR 1.2.72)",
+            "generator": "Visual Studio 17 2022",
+            "architecture": "x64",
+            "binaryDir": "${sourceDir}/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake",
+                "VCPKG_OVERLAY_PORTS": "${sourceDir}/cmake/ports/",
+                "VCPKG_TARGET_TRIPLET": "x64-windows-static-md",
+                "CMAKE_MSVC_RUNTIME_LIBRARY": "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL",
+                "CMAKE_CXX_FLAGS": "/EHsc /MP /W4 /WX $penv{CXXFLAGS}",
+                "F4SE_SUPPORT_XBYAK": "ON",
+                "ENABLE_FALLOUT_F4": "ON",
+                "ENABLE_FALLOUT_NG": "ON",
+                "ENABLE_FALLOUT_VR": "ON"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "ALL",
+            "configurePreset": "ALL",
+            "configuration": "Release"
+        }
+    ]
+}

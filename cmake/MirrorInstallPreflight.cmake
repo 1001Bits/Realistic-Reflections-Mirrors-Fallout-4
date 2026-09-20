@@ -1,0 +1,15 @@
+# A plain install/copy cannot roll back a filename migration. Use the verified
+# deployment transaction for upgrades, or replace the whole mod in a mod manager.
+if(DEFINED MIRROR_INSTALL_ROOT)
+    set(mirror_destination "${MIRROR_INSTALL_ROOT}")
+else()
+    set(mirror_destination "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
+endif()
+foreach(legacy_content "MirrorsOfFalloutWorkshop.esp" "Realistic Reflections - Mirrors.esp" "MirrorsOfFallout-Authoring.esm")
+    if(EXISTS "${mirror_destination}/${legacy_content}")
+        message(FATAL_ERROR "Legacy ${legacy_content} is installed. Use the backed-up deployment transaction or replace the mod in your mod manager before installing Realistic Reflections - Mirrors.esm. Existing saves and author plugins may still require the old filename.")
+    endif()
+endforeach()
+if(EXISTS "${mirror_destination}/F4SE/Plugins/MirrorsOfFallout.dll")
+    message(FATAL_ERROR "Legacy MirrorsOfFallout.dll is installed. Use tools/build.ps1 -Deploy (or -DeployVR) for a backed-up upgrade, or replace the mod in your mod manager. Both DLL names must not be installed together.")
+endif()
